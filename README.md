@@ -1,6 +1,6 @@
 # Modern-CPP-Programming #
 
-Modern C++ Programming Course (UNIVR)
+Modern C++ Programming Course (UNIVR) - C++11/C++14
 
 ## TOPICS ##
 
@@ -59,7 +59,7 @@ Modern C++ Programming Course (UNIVR)
 * Type Traits
 * Template Parameters
 
-6. C++ Templates and Meta-programming II
+**6. C++ Templates and Meta-programming II**
 
 * Class Templates
 * Template Meta-Programming
@@ -119,8 +119,8 @@ We are also ready to engage in improving and extending the course material.
 
 ## Author ##
 
-* `Federico Busato`, University of Verona (Italy)
-* `Alessandro Danese`, University of Verona (Italy)
+* `Federico Busato`, Dept. of Computer Science, University of Verona (Italy)
+* `Alessandro Danese`, Dept. of Computer Science,  University of Verona (Italy)
 
 ## License ##
 
