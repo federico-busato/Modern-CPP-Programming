@@ -110,6 +110,7 @@ Modern C++ Programming Course (UNIVR) - C++11/C++14
 
 09. Code Organization and Conventions -> optimize the compile time
 12. Code Optimization
+B. Appendix
 
 ### Reporting bugs and contributing ###
 
