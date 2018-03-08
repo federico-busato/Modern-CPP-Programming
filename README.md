@@ -106,6 +106,11 @@ Modern C++ Programming Course (UNIVR) - C++11/C++14
 * Concurrency
 * C++ Guidelines
 
+### todo ###
+
+09. Code Organization and Conventions -> optimize the compile time
+12. Code Optimization
+
 ### Reporting bugs and contributing ###
 
 If you find any typos please report them by using the repository
