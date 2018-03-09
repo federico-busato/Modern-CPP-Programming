@@ -108,12 +108,12 @@ Modern C++ Programming Course (UNIVR) - C++11/C++14
 
 ### todo ###
 
-01. Basic Concepts I -> Catastrofic Cancellation (loss of significance)
-09. Code Organization and Conventions -> optimize the compile time
-11. Advanced Concepts -> volatile keyword
-12. Code Optimization
-B. Appendix
-C++17
+* (01) Basic Concepts I -> Catastrofic Cancellation (loss of significance)
+* (09) Code Organization and Conventions -> optimize the compile time
+* (11) Advanced Concepts -> volatile keyword
+* (12) Code Optimization
+* (B) Appendix
+* C++17
 
 ### Reporting bugs and contributing ###
 
