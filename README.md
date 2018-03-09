@@ -135,7 +135,7 @@ We are also ready to engage in improving and extending the course material.
 
 > BSD 3-Clause License
 >
-> Copyright (c) 2017, Hornet
+> Copyright (c) 2018, Modern C++ Programming
 > All rights reserved.
 >
 > Redistribution and use in source and binary forms, with or without
