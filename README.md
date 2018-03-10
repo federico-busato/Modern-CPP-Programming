@@ -2,7 +2,7 @@
 
 #### Modern C++ Programming Course (UNIVR) - C++11/C++14 ####
 
-[Small list of C++ online compilers](https://rawgit.com/FedericoUnivr/Modern-CPP-Programming/master/html/OnlineCompiler.html)
+[Short list of C++ online compilers](https://rawgit.com/FedericoUnivr/Modern-CPP-Programming/master/html/OnlineCompiler.html)
 
 ## TOPICS ##
 
