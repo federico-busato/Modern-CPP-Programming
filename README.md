@@ -121,8 +121,8 @@ We are also ready to engage in improving and extending the course material.
 
 ## Author ##
 
-* `Federico Busato`, Dept. of Computer Science, University of Verona (Italy)
-* `Alessandro Danese`, Dept. of Computer Science,  University of Verona (Italy)
+* `Federico Busato`, Dept. of Computer Science, University of Verona (Italy) [federico.busato@univr.it](mailto:federico.busato@univr.it)
+* `Alessandro Danese`, Dept. of Computer Science,  University of Verona (Italy) [alessandro.danese@univr.it](mailto:alessandro.danese@univr.it)
 
 ## License ##
 

@@ -1,4 +1,4 @@
-## Todo ##
+## To Do ##
 
 * (01) Basic Concepts I -> Catastrofic Cancellation (loss of significance)
 * (09) Code Organization and Conventions -> optimize the compile time
