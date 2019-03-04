@@ -1,67 +1,77 @@
-# Modern-CPP-Programming #
+# Modern C++ Programming Course (UNIVR) - C++11/C++14/C++17 #
 
-#### Modern C++ Programming Course (UNIVR) - C++11/C++14 ####
+Open access C++ course
 
 [Short list of C++ online compilers](https://rawgit.com/FedericoUnivr/Modern-CPP-Programming/master/html/OnlineCompiler.html)
 
 ## TOPICS ##
 
-**1. Introduction**
+[**1. Introduction**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/01.Introduction.pdf)
 
-* A Little History of C and C++ Programming Languages
+* A Little History of C/C++ Programming Languages
 * C++ Philosophy
-* Why C++ is so popular?
-* Why C++ is so difficult?
+* Why C++?
+* Course References
 
-**2. Basic Concepts I**
+[**2. Basic Concepts I**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf)
 
-* Before Start
 * Hello World
-* I/O Stream
 * C++ Primitive Types
-* Floating Point
-* Strongly Typed Enumerators
+* auto and decltype
+* Floating-point Arithmetic
+* (Strongly Typed) Enumerators
+* Union and Bitfield
 * Math Operators
 * Statement and Control Flow
 
-**3. Basic Concepts II**
+[**3. Basic Concepts II**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)
 
 * Memory Management: Heap and Stack
-* Storage Class Specifiers
 * Pointers and References
 * sizeof Operator
-* Other Keywords
-* Explicit Type Conversion
+* const / constexpr
+* Explicit Type Conversion (Cast)
+
+[**4. Basic Concepts III**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)
+
 * Declaration and Definition
 * Functions
-* Unions and Bitfields
 * Preprocessing
 
-**4. Utilities**
+[**5. Utilities**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/05.Utilities.pdf)
 
-* Math Functions
+* I/O Stream
+* Filesystem Library
+* Math Library
 * Algorithm Library
-* String
+* String and String View
 * Random Numbers
 * Time Measuring
 
-**5. C++ Object Oriented Programming**
+[**6. C++ Object Oriented Programming I**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/06.Object_Oriented_I.pdf)
 
-* C++ Classes
-* Class keyword
+* C++ Classes and Hierarchy
+* Constructor
+* Copy Construcor
+* Destructor
+* Class Keyword: this, static, const, mutable, using, friend, delete
+
+[**7. C++ Object Oriented Programming II**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)
+
 * Polymorphism
-* Operator Overloading
-* Special Objects
+* Keyword: virtual, override, final
+* Operator overloading: <<, (), =
+* Special Object: Aggregate, Trivial class, Standard layout, POD
 
-**6. C++ Templates and Meta-programming I**
+[**8. C++ Templates and Meta-programming I**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)
 
 * Function Templates
 * Type Deduction
-* Compile-Time Utilities
+* Compile-Time Utilities: static_assert, decltype, declval, using
 * Type Traits
 * Template Parameters
 
-**6. C++ Templates and Meta-programming II**
+[**9. C++ Templates and Meta-programming II**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)
 
 * Class Templates
 * Template Meta-Programming
@@ -69,66 +79,85 @@
 * Variadic Template
 * STD Template Utility
 
-**8. Containers, Iterators, and Algorithms**
+[**10. Containers, Iterators, and Algorithms**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/10.Iterators_Containers_Alg.pdf)
 
 * Containers and Iterators
-* Sequence Containers
-* Associative Containers
-* Container Adaptors
+* Sequence Containers: array, vector, list, deque, forward_list
+* Associative Containers: set, map
+* Container Adaptors: stack, queue, priority_queue
 * Implement a Custom Iterator
 * Iterator Utility Methods
 * Algorithms Library
 * Lambda Expressions
 
-**9. Code Organization and Conventions**
+[**11. Translation Units**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/11.Translation_Units.pdf)
 
-* Basic Concepts
+* Basic concepts, linkage, scope
 * Variables Storage
-* Dealing with Multiple Files
+* Dealing with Multiple Files and Templates
+* #include Issues
 * Namespace
-* C++ Project Organization
-* Coding Style and Conventions
+* Libraries
 
-**10. Debugging and Tools**
+[**12. Code Conventions**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/12.Code_Convention.pdf)
 
-* Debugging
+* Coding Style
+* Naming and formatting
+* Maintainability and Documentation
+* C++ Guidelines
+
+[**13. Debugging and Tools**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/13.Debugging_Tools.pdf)
+
+* Debugging: Assertion, execution, memory, sanitizers
 * CMake
-* Code Checking and Analysis
+* Code Checking and Analysis: warnings and static analyzers
 * Code Quality (Linter)
 * Code Testing
 * Code Commenting (Doxygen)
-* Code Statistics
-* Other Tools
+* Code Statistics: lines, cyclomatic complexity
+* Other Tools: formating, code explorer
 
-**11. Advanced Topics**
+[**14. Advanced Topics**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/14.Advanced_Topics.pdf)
 
 * Move Semantic
-* C++ Idioms
+* Type deduction
+* C++ Idioms: rule of three/five, singleton, PILP, CRTP
 * Smart Pointers
 * Concurrency
-* C++ Guidelines
+
+[**15. Optimization**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/15.Optimization.pdf)
+(ongoing)
+
+* Concepts: optimization cycles, complexity, performane bounds
+* I/O Operations
+* Memory Locality and Memory Access Patterns
+* Arithmetic
+* Control Flow
+* Functions
+* C++ Objects
+* Compiler Optimizations
+* Libraries and Data Structures
+* Profiling
+* Parallel Computing
+* Compile Time
 
 ### Reporting bugs and contributing ###
 
 If you find any typos please report them by using the repository
-(github **issues** panel).
+(**issues** panel).
 We are also ready to engage in improving and extending the course material.
-(You will be included in the `Acknowledgements` Section)
-
-## Acknowledgements ##
-
-*
 
 ## Author ##
 
-* `Federico Busato`, Dept. of Computer Science, University of Verona (Italy) [federico.busato@univr.it](mailto:federico.busato@univr.it)
+* `Federico Busato`, Dept. of Computer Science, University of Verona (Italy) [federico.busato@univr.it](mailto:federico.busato@univr.it),
+now Nvidia Corporation ([fbusato@nvidia.com](mailto:fbusato@nvidia.com))
 * `Alessandro Danese`, Dept. of Computer Science,  University of Verona (Italy) [alessandro.danese@univr.it](mailto:alessandro.danese@univr.it)
 
 ## License ##
 
 > BSD 3-Clause License
 >
-> Copyright (c) 2018, Modern C++ Programming
+> Copyright (c) 2019, Modern C++ Programming
 > All rights reserved.
 >
 > Redistribution and use in source and binary forms, with or without
