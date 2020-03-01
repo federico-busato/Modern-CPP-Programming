@@ -1,8 +1,6 @@
 # Modern C++ Programming #
 ## C++11/C++14/C++17 ##
 
-Open access C++ course, University of Verona (UNIVR), Italy
-
 ### Essential Tool ###
 
 Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
@@ -11,7 +9,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 
 ## TOPICS ##
 
-**1. Introduction**
+**[1. Introduction](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf)**
 
 * A Little History of C/C++ Programming Languages
 * C++ Philosophy
@@ -19,7 +17,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Course Overview and References
 * Who I Am
 
-**2. Basic Concepts I**
+**[2. Basic Concepts I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf)**
 
 * Prerequirements: Compiler, editor, etc.
 * Hello World
@@ -28,7 +26,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Floating-point Arithmetic
 * Floating-point Issues
 
-**3. Basic Concepts II**
+**[3. Basic Concepts II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)**
 
 * Enumerators
 * `union` and Bitfield
@@ -36,7 +34,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Math Operators
 * Statements and Control Flow
 
-**4. Basic Concepts III**
+**[4. Basic Concepts III](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)**
 
 * Memory Management: Heap and Stack
 * Initialization
@@ -45,13 +43,13 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * `const` and `constexpr`
 * Explicit Type Conversion
 
-**5. Basic Concepts IV**
+**[5. Basic Concepts IV](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf)**
 
 * Declaration and Definition
 * Functions
 * Preprocessing
 
-**6. Utilities**
+**[6. Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Utilities.pdf)**
 
 * I/O Stream
 * Filesystem Library
@@ -61,7 +59,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Random Numbers
 * Time Measuring
 
-**7. C++ Object Oriented Programming I**
+**[7. C++ Object Oriented Programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_I.pdf)**
 
 * C++ Classes
 * Class Constructor
@@ -70,20 +68,20 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Initialization and Defaulted Members
 * Class Keywords
 
-**8. C++ Object Oriented Programming II**
+**[8. C++ Object Oriented Programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Object_Oriented_II.pdf)**
 
 * Polymorphism
 * Operator overloading
-** Special Objects
+* Special Objects
 
-**9. C++ Templates and Meta-programming I**
+**[9. C++ Templates and Meta-programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_I.pdf)**
 
 * Function Templates
 * Compile-Time Utilities
 * Type Traits
 * Template Parameters
 
-**10. C++ Templates and Meta-programming II**
+**[10. C++ Templates and Meta-programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Templates_II.pdf)**
 
 * Class Templates
 * Template Meta-Programming
@@ -91,7 +89,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Variadic Template
 * STD Template Utility
 
-**11. Containers, Iterators, and Algorithms**
+**[11. Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Iterators_Containers_Alg.pdf)**
 
 * Containers and Iterators
 * Sequence Containers: `array`, `vector`, `list`, `deque`, `forward_list`
@@ -102,7 +100,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Algorithms Library
 * Lambda Expressions
 
-**12. Translation Units**
+**[12. Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Translation_Units.pdf)**
 
 * Basic Concepts
 * Linkage
@@ -114,7 +112,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Namespace
 * How to Compile: static and dynamic libraries
 
-**13. Code Conventions**
+**[13. Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Code_Convention.pdf)**
 
 * C++ Project Organization
 * Coding Styles and Conventions
@@ -125,7 +123,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Control Flow
 * Naming and Formatting
 
-**14. Ecosystem**
+**[14. Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Ecosystem.pdf)**
 
 * Execution Debugging: `gdb` and `assert`
 * Memory Debugging: `valgrind`
@@ -139,7 +137,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Code Statistics: `lines count`, `cyclomatic complexity`
 * Other Tools: code `formating`, `exploring`, `benchmarking`
 
-**15. Advanced Topics**
+**[15. Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)**
 
 * Move Semantic
 * Copy Elision and RVO
@@ -148,7 +146,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Smart Pointers
 * Concurrency: `std::thread`
 
-**16. Optimization I**
+**[16. Optimization I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Optimization_I.pdf)**
 
 * General Concepts: asymptotic complexity, optimization cycle, Ahmdal Law, etc.
 * I/O Operations
@@ -158,7 +156,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Functions
 * C++ Objects
 
-**17. Optimization II**
+**[17. Optimization II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Optimization_II.pdf)**
 
 * Compiler Optimizations
 * Libraries and Data Structures
@@ -167,13 +165,13 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 
 ### Reporting bugs and contributing ###
 
-If you find any typos please report them by using the repository
-(**issues** panel).
+If you find any typos, conceptual errors, or sections to improve, please report them by writing directly to me or by using the `issue` panel
 
 ## Author ##
 
-* `Federico Busato`, Dept. of Computer Science, University of Verona (Italy) [federico.busato@univr.it](mailto:federico.busato@univr.it),
-now Nvidia Corporation ([fbusato@nvidia.com](mailto:fbusato@nvidia.com))
+* `Federico Busato`,
+Nvidia Corporation ([fbusato@nvidia.com](mailto:fbusato@nvidia.com))
+Dept. of Computer Science, University of Verona (Italy) [federico.busato@univr.it](mailto:federico.busato@univr.it)
 
 ## License ##
 
