@@ -3,162 +3,183 @@
 
 Open access C++ course, University of Verona (UNIVR), Italy
 
-[Short list of C++ online compilers](https://rawgit.com/FedericoUnivr/Modern-CPP-Programming/master/html/OnlineCompiler.html)
+### Essential Tool ###
+
+Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
+
+* for code execution: [Add new..] -> [execution only] 
 
 ## TOPICS ##
 
-[**1. Introduction**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/01.Introduction.pdf)
+**1. Introduction**
 
 * A Little History of C/C++ Programming Languages
 * C++ Philosophy
 * Why C++?
-* Course References
+* Course Overview and References
+* Who I Am
 
-[**2. Basic Concepts I**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf)
+**2. Basic Concepts I**
 
+* Prerequirements: Compiler, editor, etc.
 * Hello World
 * C++ Primitive Types
-* auto and decltype
+* Integral Data Types
 * Floating-point Arithmetic
-* (Strongly Typed) Enumerators
-* Union and Bitfield
-* Math Operators
-* Statement and Control Flow
+* Floating-point Issues
 
-[**3. Basic Concepts II**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)
+**3. Basic Concepts II**
+
+* Enumerators
+* `union` and Bitfield
+* `using`, `decltype`, and `auto`
+* Math Operators
+* Statements and Control Flow
+
+**4. Basic Concepts III**
 
 * Memory Management: Heap and Stack
+* Initialization
 * Pointers and References
-* sizeof Operator
-* const / constexpr
-* Explicit Type Conversion (Cast)
+* `sizeof` Operator
+* `const` and `constexpr`
+* Explicit Type Conversion
 
-[**4. Basic Concepts III**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)
+**5. Basic Concepts IV**
 
 * Declaration and Definition
 * Functions
 * Preprocessing
 
-[**5. Utilities**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/05.Utilities.pdf)
+**6. Utilities**
 
 * I/O Stream
 * Filesystem Library
-* Math Library
+* Math Functions
 * Algorithm Library
-* String and String View
+* `std::string` and `std::string_view`
 * Random Numbers
 * Time Measuring
 
-[**6. C++ Object Oriented Programming I**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/06.Object_Oriented_I.pdf)
+**7. C++ Object Oriented Programming I**
 
-* C++ Classes and Hierarchy
-* Constructor
+* C++ Classes
+* Class Constructor
 * Copy Construcor
-* Destructor
-* Class Keyword: this, static, const, mutable, using, friend, delete
+* Class Destructor
+* Initialization and Defaulted Members
+* Class Keywords
 
-[**7. C++ Object Oriented Programming II**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)
+**8. C++ Object Oriented Programming II**
 
 * Polymorphism
-* Keyword: virtual, override, final
-* Operator overloading: <<, (), =
-* Special Object: Aggregate, Trivial class, Standard layout, POD
+* Operator overloading
+** Special Objects
 
-[**8. C++ Templates and Meta-programming I**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)
+**9. C++ Templates and Meta-programming I**
 
 * Function Templates
-* Type Deduction
-* Compile-Time Utilities: static_assert, decltype, declval, using
+* Compile-Time Utilities
 * Type Traits
 * Template Parameters
 
-[**9. C++ Templates and Meta-programming II**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)
+**10. C++ Templates and Meta-programming II**
 
 * Class Templates
 * Template Meta-Programming
-* SFINAE
+* SFINAE: Substitution Failure Is Not An Error
 * Variadic Template
 * STD Template Utility
 
-[**10. Containers, Iterators, and Algorithms**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/10.Iterators_Containers_Alg.pdf)
+**11. Containers, Iterators, and Algorithms**
 
 * Containers and Iterators
-* Sequence Containers: array, vector, list, deque, forward_list
-* Associative Containers: set, map
-* Container Adaptors: stack, queue, priority_queue
+* Sequence Containers: `array`, `vector`, `list`, `deque`, `forward_list`
+* Associative Containers: `set`, `map`
+* Container Adaptors: `stack`, `queue`, `priority_queue`
 * Implement a Custom Iterator
 * Iterator Utility Methods
 * Algorithms Library
 * Lambda Expressions
 
-[**11. Translation Units**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/11.Translation_Units.pdf)
+**12. Translation Units**
 
-* Basic concepts, linkage, scope
+* Basic Concepts
+* Linkage
 * Variables Storage
-* Dealing with Multiple Files and Templates
-* #include Issues
+* Function Template
+* Class Template
+* Undefined Behavior and Summary
+* `#include` Issues
 * Namespace
-* Libraries
+* How to Compile: static and dynamic libraries
 
-[**12. Code Conventions**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/12.Code_Convention.pdf)
+**13. Code Conventions**
 
-* Coding Style
-* Naming and formatting
-* Maintainability and Documentation
-* C++ Guidelines
+* C++ Project Organization
+* Coding Styles and Conventions
+* `#include` and `namespace`
+* Variables and Prepossessing
+* Functions and Classes
+* Modern C++ Features
+* Control Flow
+* Naming and Formatting
 
-[**13. Debugging and Tools**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/13.Debugging_Tools.pdf)
+**14. Ecosystem**
 
-* Debugging: Assertion, execution, memory, sanitizers
+* Execution Debugging: `gdb` and `assert`
+* Memory Debugging: `valgrind`
+* Sanitizers: `address`, `leak`, `memory`, `undefined behavior`
+* Debugging Summary
 * CMake
-* Code Checking and Analysis: warnings and static analyzers
-* Code Quality (Linter)
-* Code Testing
-* Code Commenting (Doxygen)
-* Code Statistics: lines, cyclomatic complexity
-* Other Tools: formating, code explorer
+* Code Checking and Analysis: `warnings` and `static analyzers`
+* Code Quality: `linters`
+* Code Testing: `unit test`, `coverage`
+* Code Commenting: `doxygen`
+* Code Statistics: `lines count`, `cyclomatic complexity`
+* Other Tools: code `formating`, `exploring`, `benchmarking`
 
-[**14. Advanced Topics**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/14.Advanced_Topics.pdf)
+**15. Advanced Topics**
 
 * Move Semantic
+* Copy Elision and RVO
 * Type deduction
-* C++ Idioms: rule of three/five, singleton, PILP, CRTP
+* C++ Idioms: `rule of zero/three/five`, `singleton`, `PILP`, `CRTP`
 * Smart Pointers
-* Concurrency
+* Concurrency: `std::thread`
 
-[**15. Optimization**](https://github.com/FedericoUnivr/Modern-CPP-Programming/blob/master/15.Optimization.pdf)
-(ongoing)
+**16. Optimization I**
 
-* Concepts: optimization cycles, complexity, performane bounds
+* General Concepts: asymptotic complexity, optimization cycle, Ahmdal Law, etc.
 * I/O Operations
-* Memory Locality and Memory Access Patterns
+* Locality and Memory Access Patterns
 * Arithmetic
 * Control Flow
 * Functions
 * C++ Objects
+
+**17. Optimization II**
+
 * Compiler Optimizations
 * Libraries and Data Structures
 * Profiling
 * Parallel Computing
-* Compile Time
 
 ### Reporting bugs and contributing ###
 
 If you find any typos please report them by using the repository
 (**issues** panel).
-We are also ready to engage in improving and extending the course material.
 
 ## Author ##
 
 * `Federico Busato`, Dept. of Computer Science, University of Verona (Italy) [federico.busato@univr.it](mailto:federico.busato@univr.it),
 now Nvidia Corporation ([fbusato@nvidia.com](mailto:fbusato@nvidia.com))
-* `Alessandro Danese`, Dept. of Computer Science,  University of Verona (Italy) [alessandro.danese@univr.it](mailto:alessandro.danese@univr.it)
 
 ## License ##
 
 > BSD 3-Clause License
 >
-> Copyright (c) 2019, Modern C++ Programming
+> Copyright (c) 2020, Modern C++ Programming
 > All rights reserved.
 >
 > Redistribution and use in source and binary forms, with or without
