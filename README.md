@@ -5,7 +5,7 @@
 
 Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 
-* for code execution: [Add new..] -> [execution only] 
+* for code execution: [Add new..] -> [execution only]
 
 ## TOPICS ##
 
@@ -135,7 +135,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Code Testing: `unit test`, `coverage`
 * Code Commenting: `doxygen`
 * Code Statistics: `lines count`, `cyclomatic complexity`
-* Other Tools: code `formating`, `exploring`, `benchmarking`
+* Other Tools: code `formatting`, `exploring`, `benchmarking`
 
 **[15. Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)**
 
