@@ -12,10 +12,10 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 **[1. Introduction](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf)**
 
 * A Little History of C/C++ Programming Languages
+* Areas of Application and Popularity
 * C++ Philosophy
-* Why C++?
-* Course Overview and References
-* Who I Am
+* Books and References
+* The Course
 
 **[2. Basic Concepts I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf)**
 
@@ -49,17 +49,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Functions
 * Preprocessing
 
-**[6. Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Utilities.pdf)**
-
-* I/O Stream
-* Filesystem Library
-* Math Functions
-* Algorithm Library
-* `std::string` and `std::string_view`
-* Random Numbers
-* Time Measuring
-
-**[7. C++ Object Oriented Programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_I.pdf)**
+**[6. C++ Object Oriented Programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Object_Oriented_I.pdf)**
 
 * C++ Classes
 * Class Constructor
@@ -68,39 +58,27 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Initialization and Defaulted Members
 * Class Keywords
 
-**[8. C++ Object Oriented Programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Object_Oriented_II.pdf)**
+**[7. C++ Object Oriented Programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)**
 
 * Polymorphism
 * Operator overloading
 * Special Objects
 
-**[9. C++ Templates and Meta-programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_I.pdf)**
+**[8. C++ Templates and Meta-programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)**
 
 * Function Templates
 * Compile-Time Utilities
 * Type Traits
 * Template Parameters
 
-**[10. C++ Templates and Meta-programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Templates_II.pdf)**
+**[9. C++ Templates and Meta-programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/9.Templates_II.pdf)**
 
 * Class Templates
 * Template Meta-Programming
 * SFINAE: Substitution Failure Is Not An Error
 * Variadic Template
-* STD Template Utility
 
-**[11. Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Iterators_Containers_Alg.pdf)**
-
-* Containers and Iterators
-* Sequence Containers: `array`, `vector`, `list`, `deque`, `forward_list`
-* Associative Containers: `set`, `map`
-* Container Adaptors: `stack`, `queue`, `priority_queue`
-* Implement a Custom Iterator
-* Iterator Utility Methods
-* Algorithms Library
-* Lambda Expressions
-
-**[12. Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Translation_Units.pdf)**
+**[10. Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)**
 
 * Basic Concepts
 * Linkage
@@ -112,7 +90,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Namespace
 * How to Compile: static and dynamic libraries
 
-**[13. Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Code_Convention.pdf)**
+**[11. Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Code_Convention.pdf)**
 
 * C++ Project Organization
 * Coding Styles and Conventions
@@ -123,7 +101,7 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Control Flow
 * Naming and Formatting
 
-**[14. Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Ecosystem.pdf)**
+**[12. Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Ecosystem.pdf)**
 
 * Execution Debugging: `gdb` and `assert`
 * Memory Debugging: `valgrind`
@@ -136,6 +114,28 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 * Code Commenting: `doxygen`
 * Code Statistics: `lines count`, `cyclomatic complexity`
 * Other Tools: code `formatting`, `exploring`, `benchmarking`
+
+**[13. Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Utilities.pdf)**
+
+* I/O Stream
+* STD Template Utility
+* Filesystem Library
+* Math Functions
+* Algorithm Library
+* `std::string` and `std::string_view`
+* Random Numbers
+* Time Measuring
+
+**[14. Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Iterators_Containers_Alg.pdf)**
+
+* Containers and Iterators
+* Sequence Containers: `array`, `vector`, `list`, `deque`, `forward_list`
+* Associative Containers: `set`, `map`
+* Container Adaptors: `stack`, `queue`, `priority_queue`
+* Implement a Custom Iterator
+* Iterator Utility Methods
+* Algorithms Library
+* Lambda Expressions
 
 **[15. Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)**
 
