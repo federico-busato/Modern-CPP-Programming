@@ -57,6 +57,7 @@
 **[7. C++ Object Oriented Programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)**
 
 * **Polymorphism**: `virtual` Methods, Virtual Table, `override` Keyword, `final` Keyword, Common Errors, Pure Virtual Method, Abstract Class and Interface
+* **Inheritance Casting and Run-time Type Identification**
 * **Operator Overloading**: Overview, Subscript Operator, Comparison Operator, Function Call Operator, Conversion Operator, Increment and Decrement Operators, Assignment Operator, Stream Operator, Operator Notes
 * **C++ Special Objects**: Aggregate, Trivial Class, Standard-Layout Class, Plain Old Data (POD), Hierarchy
 
@@ -91,7 +92,7 @@
 
 * **C++ Project Organization**: Project Directories, Project Files, `src/include` directories
 * **Coding Styles and Conventions**
-* `**#include**`
+* **`#include`**
 * **Macro and Preprocessing**
 * **Namespace**
 * **Variables**
