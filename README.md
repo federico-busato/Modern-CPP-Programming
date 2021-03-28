@@ -41,17 +41,18 @@
 **[5. Basic Concepts IV - Functions and Preprocessing](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf)**
 
 * **Declaration and Definition**
-* **Functions**: Pass by-Value, Pass by-Pointer, Pass by-Reference, Overloading, Default Parameters, `inline` Declaration, Attributes
+* **Functions**: Pass by-Value, Pass by-Pointer, Pass by-Reference, Overloading, Default Parameters, Attributes
 * **Function Objects and Lambda Expressions**: Function Pointer, Function Object (or Functor), Capture List, Other Features, Capture List and Classes
 * **Preprocessing**: Preprocessors, Common Errors, Useful Macro, Stringizing Operator (`#`), `#pragma` and `#error`, Token-Pasting Operator (`##`), Variadic Macro
 
 **[6. C++ Object Oriented Programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Object_Oriented_I.pdf)**
 
-* **C++ Classes**: RAII, Class Hierarchy, Inheritance Attributes
-* **Class Constructor**: Default Constructor, Delegate Constructor, `explicit` Keyword
+* **C++ Classes**
+* **Class Hierarchy**:  Access specifiers, Inheritance Access Specifiers
+* **Class Constructor**: Default Constructor, Initializer List, Uniform Initialization, Delegate Constructor, `explicit` Keyword
 * **Copy Constructor**
 * **Class Destructor**
-* **Initialization and Defaulted Members**: Initialization List, Uniform Initialization, Defaulted Constructor
+* **Defaulted Members**: Defaulted Constructor
 * **Class Keywords**: `this`, `static`, `const`, `mutable`, `using`, `friend`, `delete`
 
 **[7. C++ Object Oriented Programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)**
