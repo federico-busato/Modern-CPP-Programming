@@ -183,6 +183,10 @@ If you find any typos, conceptual errors, or sections to improve, please report 
 
 ## Author ##
 
-* `Federico Busato`,<br/>
-Nvidia Corporation ([fbusato@nvidia.com](mailto:fbusato@nvidia.com))<br/>
-Dept. of Computer Science, University of Verona (Italy) [federico.busato@univr.it](mailto:federico.busato@univr.it)
+`Federico Busato`
+
+- Nvidia Corporation ([fbusato@nvidia.com](mailto:fbusato@nvidia.com))
+- Dept. of Computer Science, University of Verona (Italy) [federico.busato@univr.it](mailto:federico.busato@univr.it)
+- https://twitter.com/fedebusato
+- https://www.linkedin.com/in/federico-busato/
+
