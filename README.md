@@ -1,6 +1,20 @@
 # Modern C++ Programming #
 ## C++11 / C++14 / C++17 / (C++20) ##
 
+This *open-access* course is directed at those who are already familiar with C and object-oriented programming towards a proficiency level of C++ programming. The course covers the basics of C++ programming and moves on to advanced C++ semantics and concepts.
+
+**Key features**:
+
+- *Free and frequently updated*
+- Include the *last language standard* concepts and features
+- *Practical teaching*: small structured descriptions associated to code
+- *Minimal code examples* for showing just a specific feature or issue without digressing
+- *Complementary language aspects*: tools, coding conventions, project organization, and code optimization
+- *Experience-based*: many aspects, examples, and problems come from real-world cases faced during my work as software engineer
+
+If you enjoy the course or you find it useful, please add a **Star**
+ [![stars - Modern-CPP-Programming](https://img.shields.io/github/stars/federico-busato/Modern-CPP-Programming?style=social)](https://github.com/federico-busato/Modern-CPP-Programming)
+
 ## TOPICS ##
 
 **[1. Introduction](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf)**
@@ -17,10 +31,10 @@
 * **Hello World**: I/O Stream
 * **C++ Fundamental Types Overview**: Arithmetic types, Non-standard arithmetic types, `void` type, Pointer type and `nullptr`
 * **Conversion Rules**
-* **C++ Operators**: Operators precedence, Prefix/Postfix increment/decrement, Assignment and comma operators, Spaceship operator `<=>` 
-* **Integral Data Types**: Fixed width integers, When use signed/unsigned integer? Promotion, Truncation, Undefined Behavior
+* **C++ Operators**: Operators precedence, Prefix/Postfix increment/decrement, Assignment, Compound , and comma operators, Spaceship operator `<=>` 
+* **Integral Data Types**: Fixed width integers, When use signed/unsigned integer? Promotion, Truncation, Undefined behavior
 * **Floating-point Types and Arithmetic**: Normal/Denormal values, Not a Number (`NaN`), Infinity, Properties
-* **Floating-point Issues**: Floating-point Comparison, Catastrophic Cancellation
+* **Floating-point Issues**: Floating-point comparison, Catastrophic cancellation
 
 **[3. Basic Concepts II - Entities and Control Flow](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)**
 
@@ -32,7 +46,7 @@
 **[4. Basic Concepts III - Memory Management](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)**
 
 * **Heap and Stack**: Stack Memory, `new`, `delete`, Memory Leak
-* **Initialization**: Variable initialization, Uniform Initialization, Structure Initialization, Stack Fixed-size array initialization, Dynamic array initialization
+* **Initialization**: Variable initialization, Uniform initialization, Structure initialization, Fixed-size array initialization, Dynamic array initialization
 * **Pointers and References**: Pointer, Address-of operator `&`, Reference
 * **`const`, `constexpr`, `consteval`, `constinit`**
 * **Explicit Type Conversion**: `static_cast`, `const_cast`, `reinterpret_cast`, Type punning
@@ -79,7 +93,7 @@
 **[10. Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)**
 
 * **Basic Concepts**: Translation unit, Local and global scope, Linkage
-* **Storage Class and Duration**: Storage duration, Storage class, `static` and `extern` keywords, Internal/External linkage examples, Linkage of `const` and `constexpr`
+* **Storage Class and Duration**: Storage duration, Storage class, `static` and `extern` keywords, Internal/External linkage examples, Linkage of `const` and `constexpr`, Static Initialization Order Fiasco
 * **Dealing with Multiple Translation Units**: One Definition Rule (ODR), `inline` functions/variables, Class in multiple translation units, Global variable issues
 * **Function Template**
 * **Class Template**
@@ -106,7 +120,7 @@
 
 **[12. Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Ecosystem.pdf)**
 
-* **Debugging**: Assertion, Execution Debugging (`gdb`)
+* **Debugging**: Assertion, Execution debugging (`gdb`)
 * **Memory Debugging**: `valgrind`, Stack protection
 * **Sanitizers**: Address sanitizer, Leak sanitizer, Memory sanitizers, Undefined behavior sanitizer
 * **Debugging Summary**
@@ -135,7 +149,7 @@
 * **Associative Containers**: `std::set`, `std::map`, `std::multiset`
 * **Container Adaptors**: `std::stack`, `std::queue`, `std::priority_queue`
 * **View**: `std::span`
-* **Implement a Custom Iterator**: Semantic, Implement a Simple Iterator
+* **Implement a Custom Iterator**: Semantic, Implement a simple Iterator
 * **Iterator Utility Methods**: `std::advance`, `std::next`, `std::prev`, `std::distance`, Range access methods, Iterator traits
 * **Algorithms Library**: `std::find_if`, `std::sort`, `std::accumulate`, `std::generate`, `std::remove_if`
 
@@ -144,6 +158,7 @@
 * **Move Semantic**: `lvalues` and `rvalues` references, Move semantic, Compiler implicitly declared, `std::move`
 * **Universal Reference and Perfect Forwarding**: Universal reference, Reference collapsing rules, Perfect forwarding
 * **Value Categories**
+* **`&`, `&&` Overloading - Ref-qualifiers**
 * **Copy Elision and RVO**
 * **Type Deduction**: Pass by-reference, Pass by-pointer, Pass by-value
 * **`const` Correctness**
@@ -155,7 +170,7 @@
 
 **[16. Optimization I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Optimization_I.pdf)**
 
-* **General Concepts**: Asymptotic complexity, Optimization cycle, Ahmdal Law, Throughput, Bandwidth, Latency, Performance Bounds, Arithmetic Intensity
+* **General Concepts**: Asymptotic complexity, Optimization cycle, Ahmdal's Law, Throughput, Bandwidth, Latency, Performance Bounds, Arithmetic Intensity
 * **Basic Architecture Concepts**: Instruction-level parallelism, Little’s Law, Data-level parallelism, thread-level parallelism, RISC, CISC Instruction sets
 * **I/O Operations**: `printf`, Memory Mapped I/O, Speed up raw data loading
 * **Locality and Memory Access Patterns**: Memory hierarchy, Memory locality, Internal structure alignment, External structure alignment
@@ -173,6 +188,12 @@
 * **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Program memory layout
 * **Parallel Computing**: Concurrency vs. Parallelism, Performance scaling, Gustafson’s Law, Parallel programming languages
 
+### Roadmap
+
+1. Complete C++20 topics
+2. Software Design Chapter
+3. Build Aspects Chapter (e.g. reducing build time)
+
 ### Essential Tool ###
 
 Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
@@ -187,8 +208,7 @@ If you find any typos, conceptual errors, or sections to improve, please report 
 
 `Federico Busato`
 
-- Nvidia Corporation ([fbusato@nvidia.com](mailto:fbusato@nvidia.com))
-- Dept. of Computer Science, University of Verona (Italy) [federico.busato@univr.it](mailto:federico.busato@univr.it)
-- https://twitter.com/fedebusato
-- https://www.linkedin.com/in/federico-busato/
-
+- Nvidia Corporation [fbusato@nvidia.com](mailto:fbusato@nvidia.com)
+- Dept. of Computer Science, University of Verona, Italy [federico.busato@univr.it](mailto:federico.busato@univr.it)
+- Twitter: [twitter.com/fedebusato](https://twitter.com/fedebusato)
+- Linkedin: [www.linkedin.com/in/federico-busato/](https://www.linkedin.com/in/federico-busato/)
