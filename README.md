@@ -1,5 +1,5 @@
 # Modern C++ Programming #
-<img src="other/cpp_logo.png" style="zoom:8%;" />
+<img src="other/cpp_logo.png" />
 
 ## C++11 / C++14 / C++17 / (C++20) ##
 
