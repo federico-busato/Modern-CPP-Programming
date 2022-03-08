@@ -30,7 +30,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 | **6**  | **[C++ Object Oriented Programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Object_Oriented_I.pdf)** | Class hierarchy, constructor, destructor, class keywords     |
 | **7**  | **[C++ Object Oriented Programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)** | Polymorphism, operators overloading                          |
 | **8**  | **[C++ Templates and Meta-programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)** | Function template, type traits                               |
-| **9**  | **[C++ Templates and Meta-programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/9.Templates_II.pdf)** | Class template, SFINAE                                       |
+| **9**  | **[C++ Templates and Meta-programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)** | Class template, SFINAE                                       |
 | **10** | **[Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)** | Dealing with multiple translation units and files, namespace |
 | **11** | **[Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Code_Convention.pdf)** | Project organization and main code conventions               |
 | **12** | **[Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Ecosystem.pdf)** | Debugging, testing, building, documenting tools              |
