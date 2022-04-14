@@ -1,7 +1,8 @@
-# Modern C++ Programming #
+# Modern C++ Programming
+
 <img src="other/cpp_logo.png" />
 
-## C++11 / C++14 / C++17 / (C++20) ##
+## C++11 / C++14 / C++17 / (C++20)
 
 This *open-access* course is directed at those who are already familiar with C and object-oriented programming towards a proficiency level of C++ programming. The course covers the basics of C++ programming and moves on to advanced C++ semantics and concepts.
 
@@ -18,27 +19,27 @@ If you enjoy the course or you find it useful, please add a **Star**
 
  [![stars - Modern-CPP-Programming](https://img.shields.io/github/stars/federico-busato/Modern-CPP-Programming?style=social)](https://github.com/federico-busato/Modern-CPP-Programming)
 
-## CHAPTERS ##
+## CHAPTERS
 
-|        | TITLE                                                        | MAIN FOCUS                                                   |
-| ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **1**  | **[Introduction](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf)** | History of C/C++, Areas of Applications, Course introduction |
-| **2**  | **[Basic Concepts I - Fundamental Types](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf)** | Integral data types, floating-point, operators, and conversion |
-| **3**  | **[Basic Concepts II - Entities and Control Flow](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)** | Enumerators, structures, control flow statements             |
-| **4**  | **[Basic Concepts III - Memory Management](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)** | Heap, Stack, pointers, references, const property, conversion operators |
-| **5**  | **[Basic Concepts IV - Functions and Preprocessing](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf)** | Functions, lambda expressions, preprocessing directives      |
-| **6**  | **[C++ Object Oriented Programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Object_Oriented_I.pdf)** | Class hierarchy, constructor, destructor, class keywords     |
-| **7**  | **[C++ Object Oriented Programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)** | Polymorphism, operators overloading                          |
-| **8**  | **[C++ Templates and Meta-programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)** | Function template, type traits                               |
-| **9**  | **[C++ Templates and Meta-programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)** | Class template, SFINAE                                       |
-| **10** | **[Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)** | Dealing with multiple translation units and files, namespace |
-| **11** | **[Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Code_Convention.pdf)** | Project organization and main code conventions               |
-| **12** | **[Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Ecosystem.pdf)** | Debugging, testing, building, documenting tools              |
-| **13** | **[Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Utilities.pdf)** | Main `std` libraries                                         |
-| **14** | **[Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Iterators_Containers_Alg.pdf)** | Containers, iterators, algorithms                            |
-| **15** | **[Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)** | Move semantics, error handling, C++ idioms                   |
-| **16** | **[Optimization I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Optimization_I.pdf)** | Code optimizations, e.g. arithmetic, memory, etc.            |
-| **17** | **[Optimization II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Optimization_II.pdf)** | Compiler optimizations, profiling and benchmarking tools     |
+|        | TITLE                                                                                                                                                 | MAIN FOCUS                                                              |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **1**  | **[Introduction](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf)**                                         | History of C/C++, Areas of Applications, Course introduction            |
+| **2**  | **[Basic Concepts I - Fundamental Types](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf)**             | Integral data types, floating-point, operators, and conversion          |
+| **3**  | **[Basic Concepts II - Entities and Control Flow](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)**   | Enumerators, structures, control flow statements                        |
+| **4**  | **[Basic Concepts III - Memory Management](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)**         | Heap, Stack, pointers, references, const property, conversion operators |
+| **5**  | **[Basic Concepts IV - Functions and Preprocessing](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf)** | Functions, lambda expressions, preprocessing directives                 |
+| **6**  | **[C++ Object Oriented Programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Object_Oriented_I.pdf)**               | Class hierarchy, constructor, destructor, class keywords                |
+| **7**  | **[C++ Object Oriented Programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)**             | Polymorphism, operators overloading                                     |
+| **8**  | **[C++ Templates and Meta-programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)**                  | Function template, type traits                                          |
+| **9**  | **[C++ Templates and Meta-programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)** | Class template, SFINAE  
+| **10** | **[Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)**                               | Dealing with multiple translation units and files, namespace            |
+| **11** | **[Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Code_Convention.pdf)**                                  | Project organization and main code conventions                          |
+| **12** | **[Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Ecosystem.pdf)**                                               | Debugging, testing, building, documenting tools                         |
+| **13** | **[Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Utilities.pdf)**                                               | Main `std` libraries                                                    |
+| **14** | **[Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Iterators_Containers_Alg.pdf)**    | Containers, iterators, algorithms                                       |
+| **15** | **[Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)**                                   | Move semantics, error handling, C++ idioms                              |
+| **16** | **[Optimization I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Optimization_I.pdf)**                                     | Code optimizations, e.g. arithmetic, memory, etc.                       |
+| **17** | **[Optimization II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Optimization_II.pdf)**                                   | Compiler optimizations, profiling and benchmarking tools                |
 
 ## TOPICS
 
@@ -56,23 +57,23 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Hello World**: I/O Stream
 * **C++ Fundamental Types Overview**: Arithmetic types, Non-standard arithmetic types, `void` type, Pointer type and `nullptr`
 * **Conversion Rules**
+* **`auto` declaration**
 * **C++ Operators**: Operators precedence, Prefix/Postfix increment/decrement, Assignment, Compound , and comma operators, Spaceship operator `<=>` 
-* **Integral Data Types**: Fixed width integers, When use signed/unsigned integer? Promotion, Truncation, Undefined behavior
-* **Floating-point Types and Arithmetic**: Normal/Denormal values, Not a Number (`NaN`), Infinity, Properties
-* **Floating-point Issues**: Floating-point comparison, Catastrophic cancellation
+* **Integral Data Types**: Fixed width integers and `size_t`, When use signed/unsigned integer? Promotion, Truncation, Undefined behavior
+* **Floating-point Types and Arithmetic**: Normal/Denormal values, Infinity, Not a Number (`NaN`), Summary, Properties
+* **Floating-point Issues**: Catastrophic cancellation, Floating-point comparison
 
 **[3. Basic Concepts II - Entities and Control Flow](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)**
 
 * **Enumerators**
-* **`struct`, `union`, and Bitfield**
-* **`using`, `decltype`, and `auto`**
-* **Control Flow**: `if` Statement, `for` Loop, `switch`, `goto`
+* **`struct`, Bitfield, `union`
+* **Control Flow**: `if` Statement, `for` Loop, Range-base `for` loop, `switch`, `goto`
 
 **[4. Basic Concepts III - Memory Management](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)**
 
 * **Heap and Stack**: Stack Memory, `new`, `delete`, Memory Leak
-* **Initialization**: Variable initialization, Uniform initialization, Structure initialization, Fixed-size array initialization, Dynamic array initialization
-* **Pointers and References**: Pointer, Address-of operator `&`, Reference
+* **Initialization**: Variable initialization, Uniform initialization, Fixed-size array initialization, Structure initialization, Dynamic array initialization
+* **Pointers and References**: Pointer Operations, Address-of operator `&`, Reference
 * **`const`, `constexpr`, `consteval`, `constinit`**
 * **Explicit Type Conversion**: `static_cast`, `const_cast`, `reinterpret_cast`, Type punning
 * `sizeof` Operator
@@ -80,15 +81,15 @@ If you enjoy the course or you find it useful, please add a **Star**
 **[5. Basic Concepts IV - Functions and Preprocessing](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf)**
 
 * **Declaration and Definition**
-* **Functions**: Pass by-value, Pass by-pointer, Pass by-reference, Overloading, Default parameters, Attributes
+* **Functions**: Pass by-value, Pass by-pointer, Pass by-reference, Function signature and Overloading, Default parameters, Attributes
 * **Function Objects and Lambda Expressions**: Function pointer, Function object (or Functor), Capture list, Other features, Capture list and classes
 * **Preprocessing**: Preprocessors, Common errors, Useful macro, Stringizing operator (`#`), `#pragma` and `#error`, Token-Pasting Operator (`##`), Variadic Macro
 
 **[6. C++ Object Oriented Programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Object_Oriented_I.pdf)**
 
-* **C++ Classes**
+* **C++ Classes**: RAII Idiom
 * **Class Hierarchy**:  Access specifiers, Inheritance access specifiers
-* **Class Constructor**: Default constructor, Initializer list, Uniform initialization, Delegate constructor, `explicit` keyword
+* **Class Constructor**: Default constructor, Class initialization, Uniform initialization, Delegate constructor, `explicit` keyword
 * **Copy Constructor**
 * **Class Destructor**
 * **Defaulted Members** (`= default`)
@@ -98,7 +99,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 * **Polymorphism**: `virtual` methods, Virtual table, `override` keyword, `final` keyword, Common errors, Pure virtual method, Abstract class and interface
 * **Inheritance Casting and Run-time Type Identification**
-* **Operator Overloading**: Overview, Subscript operator `[]`, Comparison operator `<`, Spaceship operator `<=>` Function call operator `()`, Conversion operator `T()`, Increment and decrement operators `++`/`--`, Assignment operator `=`, Stream operator `<<`, Operator Notes
+* **Operator Overloading**: Overview, Subscript operator `[]`, Comparison operator `<`, Spaceship operator `<=>` Function call operator `()`, Conversion operator `T()`, Return type overloading resolution, Increment and decrement operators `++`/`--`, Assignment operator `=`, Stream operator `<<`, Operator Notes
 * **C++ Special Objects**: Aggregate, Trivial class, Standard-layout class, Plain old data (POD), Hierarchy
 
 **[8. C++ Templates and Meta-programming I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)**
@@ -108,7 +109,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Type Traits**: Overview, Type traits library, Type manipulation, Type relation and transformation
 * **Template Parameters**: Overview, Special cases
 
-**[9. C++ Templates and Meta-programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/9.Templates_II.pdf)**
+**[9. C++ Templates and Meta-programming II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)**
 
 * **Class Template**: Class specialization, Class + Function - specialization, `friend` keyword, Dependent names, Template variable
 * **Template Meta-Programming**
@@ -219,17 +220,17 @@ If you enjoy the course or you find it useful, please add a **Star**
 2. Software Design Chapter
 3. Build Aspects Chapter (e.g. reducing build time)
 
-### Essential Tool ###
+### Essential Tool
 
 Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 
 * for code execution: [Add new..] -> [execution only]
 
-### Reporting bugs and contributing ###
+### Reporting bugs and contributing
 
 If you find any typos, conceptual errors, or sections to improve, please report them by writing directly to me or by using the `issue` panel
 
-## Author ##
+## Author
 
 `Federico Busato`
 
