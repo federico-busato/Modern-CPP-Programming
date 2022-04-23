@@ -120,10 +120,11 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 * **Basic Concepts**: Translation unit, Local and global scope, Linkage
 * **Storage Class and Duration**: Storage duration, Storage class, `static` and `extern` keywords, Internal/External linkage examples, Linkage of `const` and `constexpr`, Static Initialization Order Fiasco
-* **Dealing with Multiple Translation Units**: One Definition Rule (ODR), `inline` functions/variables, Class in multiple translation units, Global variable issues
-* **Function Template**
-* **Class Template**
-* **ORD and Undefined Behavior**
+* **Dealing with Multiple Translation Units**: Class in multiple translation units
+* **One Definition Rule (ODR)**: Global variable issues,`inline` functions/variables
+* **Function Template**: Cases, `extern` keyword
+* **Class Template**: Cases, `extern` keyword
+* **ODR and Undefined Behavior**
 * **`#include` Issues**: Forward declaration, Include guard, Circular dependencies, Common linking errors
 * **Namespace**: Namespace functions vs. `static` methods, Namespace alias, Anonymous namespace, `inline` namespace
 * **How to Compile**: Compile strategies, Deal with libraries, Build static/dynamic libraries, Find dynamic library dependencies, Analyze object/executable symbols
