@@ -1,8 +1,29 @@
 # Modern C++ Programming
 
+<p align="center">
 <img src="other/cpp_logo.png" />
+</p>
+<p align="center">
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming/releases" alt="Release">
+        <img src="https://img.shields.io/github/v/release/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
+    </a>
+</p>
+<p align="center">
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming/commits/master" alt="Commits">
+        <img src="https://badgen.net/github/commits/federico-busato/Modern-CPP-Programming?style=for-the-badge&scale=1.2"/>
+    </a>
+</p>
 
-## C++11 / C++14 / C++17 / (C++20)
+<p align="center">
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming/network/members" alt="Forks">
+        <img src="https://img.shields.io/github/forks/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
+    </a>
+    <a alt="Stars">
+        <img src="https://img.shields.io/github/stars/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
+    </a>
+</p>
+
+## C++11 / C++14 / C++17 / C++20
 
 This *open-access* course is directed at those who are already familiar with C and object-oriented programming towards a proficiency level of C++ programming. The course covers the basics of C++ programming and moves on to advanced C++ semantics and concepts.
 
@@ -59,7 +80,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **C++ Fundamental Types Overview**: Arithmetic types, Non-standard arithmetic types, `void` type, Pointer type and `nullptr`
 * **Conversion Rules**
 * **`auto` declaration**
-* **C++ Operators**: Operators precedence, Prefix/Postfix increment/decrement, Assignment, Compound , and comma operators, Spaceship operator `<=>` 
+* **C++ Operators**: Operators precedence, Prefix/Postfix increment/decrement, Assignment, Compound , and comma operators, Spaceship operator `<=>` , Safe Comparison Operators
 * **Integral Data Types**: Fixed width integers and `size_t`, When use signed/unsigned integer? Promotion, Truncation, Undefined behavior
 * **Floating-point Types and Arithmetic**: Normal/Denormal values, Infinity, Not a Number (`NaN`), Summary, Properties
 * **Floating-point Issues**: Catastrophic cancellation, Floating-point comparison
@@ -113,9 +134,11 @@ If you enjoy the course or you find it useful, please add a **Star**
 **[9. C++ Templates and Meta-programming II -  - Class Templates and SFINAE](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)**
 
 * **Class Template**: Class specialization, Class + Function - specialization, `friend` keyword, Dependent names, Template variable
+* **Class Template - Advanced Concepts**: Class + Function - Specialization, Dependent Names - `typename` and `template` Keywords, `friend` Keyword, Template Template Arguments
 * **Template Meta-Programming**
 * **SFINAE: Substitution Failure Is Not An Error**: Function SFINAE, Class SFINAE, Class + Function SFINAE
 * **Variadic Template**: Folding Expression, Variadic Class Template
+* **C++20 Concepts**:  `concept` Keyword, `requires` Clause, `requires` Expression, `requires` Expression + Clause,` requires` Clause + Expression, `requires` and `constexpr`, Nested `requires`
 
 **[10. Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)**
 
@@ -127,8 +150,9 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Class Template**: Cases, `extern` keyword
 * **ODR and Undefined Behavior**
 * **`#include` Issues**: Forward declaration, Include guard, Circular dependencies, Common linking errors
-* **Namespace**: Namespace functions vs. `static` methods, Namespace alias, Anonymous namespace, `inline` namespace
-* **How to Compile**: Compile strategies, Deal with libraries, Build static/dynamic libraries, Find dynamic library dependencies, Analyze object/executable symbols
+* **C++20 Modules**: Terminology, Visibility and Reachability, Module unit types, Keywords, Global module fragment, Private module gragment, Header module unit, Module partitions
+* **Namespace**: Namespace functions vs. `static` methods, Namespace alias, Anonymous namespace, `inline` namespace, Attributes and namespace
+* **Compiling Multiple Translation Units**: Fundamental compiler flags, Compile Methods, Deal with libraries, Build static/dynamic libraries, Find dynamic library dependencies, Analyze object/executable symbols
 
 **[11. Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Code_Convention.pdf)**
 
@@ -164,10 +188,10 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 * **I/O Stream**: Manipulator, `ofstream/ifstream`
 * **Math Libraries**
-* **Strings**: `std::string`, Conversion from/to numeric balues, `std::string view`, `std::format`
+* **Strings**: `std::string`, Conversion from/to numeric balues, `std::string_view`, `std::format`
 * **Random Number**: Basic Concepts, C++ `<random>`, Seed, PRNG period and quality, Distribution, Quasi-random
 * **Time Measuring**: Wall-Clock time, User time, System time
-* **Std Template Classes**: `std::pair`, `std::tuple`, `std::variant`, `std::optional`, `std::any`
+* **Std Template Classes**: `std::byte` `std::pair`, `std::tuple`, `std::variant`, `std::optional`, `std::any`
 * **Filesystem Library**: Query methods, Modify methods
 
 **[14. Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Iterators_Containers_Alg.pdf)**
@@ -178,8 +202,9 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Container Adaptors**: `std::stack`, `std::queue`, `std::priority_queue`
 * **View**: `std::span`
 * **Implement a Custom Iterator**: Semantic, Implement a simple Iterator
-* **Iterator Utility Methods**: `std::advance`, `std::next`, `std::prev`, `std::distance`, Range access methods, Iterator traits
+* **Iterator Utility Methods**: `std::advance`, `std::next`, `std::prev`, `std::distance`, Container access methods, Iterator traits
 * **Algorithms Library**: `std::find_if`, `std::sort`, `std::accumulate`, `std::generate`, `std::remove_if`
+* **C++20 Ranges**: Key concepts, Range view,  Range adaptor, Range factory, Range algorithms, Range actions
 
 **[15. Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)**
 
@@ -217,15 +242,14 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Compiler Optimizations**: About the compiler, Architecture flags, Optimization flags, Help the Compiler to produce better code, Profile guided optimization (PGO)
 * **Compiler Transformation Techniques**
 * **Libraries and Data Structures**: External libraries, Std library
+* **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Program memory layout, Measurement overhead and compiler Optimizations, Metric evaluation
 * **Profiling**: `gprof`, `uftrace`, `callgrind`, `cachegrind`, `perf` Linux profiler
-* **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Program memory layout
 * **Parallel Computing**: Concurrency vs. Parallelism, Performance scaling, Gustafson’s Law, Parallel programming languages
 
 ### Roadmap
 
-1. Complete C++20 topics
-2. Software Design Chapter
-3. Build Aspects Chapter (e.g. reducing build time)
+1. Software Design Chapter
+2. Build Aspects Chapter (e.g. reducing build time)
 
 ### Essential Tool
 
@@ -235,7 +259,13 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 
 ### Reporting bugs and contributing
 
-If you find any typos, conceptual errors, or sections to improve, please report them by writing directly to me or by using the `issue` panel
+If you find any typo, conceptual error, or section to improve, please report them by writing directly to me or by using the `issue` panel
+
+<p align="center">
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming-Material/issues" alt="Issues">
+        <img src="https://img.shields.io/github/issues-closed/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
+    </a>
+</p>
 
 ## Author
 
