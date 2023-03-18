@@ -23,7 +23,7 @@
     </a>
 </p>
 
-## C++11 / C++14 / C++17 / C++20
+## C++11  /  C++14  /  C++17  / C++20 / (C++23)
 
 This *open-access* course is directed at those who are already familiar with C and object-oriented programming towards a proficiency level of C++ programming. The course covers the basics of C++ programming and moves on to advanced C++ semantics and concepts.
 
@@ -47,18 +47,18 @@ If you enjoy the course or you find it useful, please add a **Star**
 | **1**  | **[Introduction](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf)**                                                                        | History of C/C++, Areas of Applications, Course introduction                              |
 | **2**  | **[Basic Concepts I - Fundamental Types](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf)**                                            | Integral data types, floating-point, operators, and conversion                            |
 | **3**  | **[Basic Concepts II - Entities and Control Flow](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)**                                  | Enumerators, structures, control flow statements                                          |
-| **4**  | **[Basic Concepts III - Memory Management](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)**                                        | Heap, Stack, pointers, references, const property, conversion operators                   |
+| **4**  | **[Basic Concepts III - Memory Management](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)**                                        | Heap, Stack, pointers, references, const properties, conversion operators                 |
 | **5**  | **[Basic Concepts IV - Functions and Preprocessing](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf)**                                | Functions, lambda expressions, preprocessing directives                                   |
 | **6**  | **[C++ Object Oriented Programming I - Class Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Object_Oriented_I.pdf)**                             | Class hierarchy, constructor, destructor, class keywords                                  |
 | **7**  | **[C++ Object Oriented Programming II - Polymorphism and Operator Overloading](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)**    | Polymorphism, operators overloading                                                       |
 | **8**  | **[C++ Templates and Meta-programming I - Function Templates and Compile-Time Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)** | Function template, type traits                                                            |
 | **9**  | **[C++ Templates and Meta-programming II - Class Templates and SFINAE](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)**                  | Class template, SFINAE                                                                    |
-| **10** | **[Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)**                                                              | Dealing with multiple translation units and files, namespace                              |
+| **10** | **[Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)**                                                              | Dealing with multiple translation units and files, namespace, `#include`, module          |
 | **11** | **[Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Code_Convention.pdf)**                                                                 | Project organization and main code conventions                                            |
 | **12** | **[Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Ecosystem.pdf)**                                                                              | Debugging, testing, building, documenting tools                                           |
 | **13** | **[Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Utilities.pdf)**                                                                              | Main `std` libraries                                                                      |
-| **14** | **[Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Iterators_Containers_Alg.pdf)**                                   | Containers, iterators, algorithms                                                         |
-| **15** | **[Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)**                                                                  | Move semantics, error handling, C++ idioms                                                |
+| **14** | **[Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Iterators_Containers_Alg.pdf)**                                   | Containers, iterators, algorithms, ranges                                                 |
+| **15** | **[Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)**                                                                  | Move semantics, error handling, C++ idioms, exceptions                                    |
 | **16** | **[Optimization I - Basic Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Optimization_I.pdf)**                                                   | Ahmdal Law, performance bounds, architecture concepts (ILP, SIMD, etc.), memory hierarchy |
 | **17** | **[Optimization II - Code Optimization](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Optimization_II.pdf)**                                              | Arithmetic optimizations, memory optimizations, etc.                                      |
 | **18** | **[Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Optimization_III.pdf)**                    | Compiler optimizations, profiling and benchmarking tools                                  |
@@ -70,6 +70,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **A Little History of C/C++ Programming Languages**
 * **Areas of Application and Popularity**
 * **C++ Philosophy**
+* **C++ Weakness**
 * **Books and References**
 * **The Course**
 
@@ -88,15 +89,15 @@ If you enjoy the course or you find it useful, please add a **Star**
 **[3. Basic Concepts II - Entities and Control Flow](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)**
 
 * **Enumerators**
-* **`struct`, Bitfield, `union`
+* **`struct`, Bitfield, `union`**
 * **Control Flow**: `if` Statement, `for` Loop, Range-base `for` loop, `switch`, `goto`
 
 **[4. Basic Concepts III - Memory Management](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)**
 
-* **Heap and Stack**: Stack Memory, `new`, `delete`, Memory Leak
+* **Heap and Stack**: Stack Memory, `new`, `delete`, Non-allocating placement allocation, Non-throwing allocation, Memory leak
 * **Initialization**: Variable initialization, Uniform initialization, Fixed-size array initialization, Structure initialization, Dynamic array initialization
 * **Pointers and References**: Pointer Operations, Address-of operator `&`, Reference
-* **`const`, `constexpr`, `consteval`, `constinit`**
+* **Constant and Literals, `const`, `constexpr`, `consteval`, `constinit`**
 * **Explicit Type Conversion**: `static_cast`, `const_cast`, `reinterpret_cast`, Type punning
 * `sizeof` Operator
 
@@ -121,36 +122,40 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 * **Polymorphism**: `virtual` methods, Virtual table, `override` keyword, `final` keyword, Common errors, Pure virtual method, Abstract class and interface
 * **Inheritance Casting and Run-time Type Identification**
-* **Operator Overloading**: Overview, Subscript operator `[]`, Comparison operator `<`, Spaceship operator `<=>` Function call operator `()`, Conversion operator `T()`, Return type overloading resolution, Increment and decrement operators `++`/`--`, Assignment operator `=`, Stream operator `<<`, Operator Notes
+* **Operator Overloading**: Overview, Subscript operator `[]`, Comparison operator `<`, Spaceship operator `<=>`, Function call operator `()`, Conversion operator `T()`, Return type overloading resolution, Increment and decrement operators `++`/`--`, Assignment operator `=`, Stream operator `<<`, Operator Notes
 * **C++ Special Objects**: Aggregate, Trivial class, Standard-layout class, Plain old data (POD), Hierarchy
 
 **[8. C++ Templates and Meta-programming I - Function Templates and Compile-Time Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)**
 
-* **Function Template**: Overview, Template parameters, Template parameter - default value, Specialization, Overloading, `auto` deduction
+* **Function Template**: Overview, Template parameters, Template parameter - default value, Specialization, Overloading
+* **Template Variable**
+* **Template Parameter Types**: Template Parameter Types, Generic Type Notes, 
+  `auto` Placeholder, Class template parameter type, Array and pointer types, Function type 
 * **Compile-Time Utilities**: `static_assert`, `decltype` Keyword, `using` Keyword
-* **Type Traits**: Overview, Type traits library, Type manipulation, Type relation and transformation
-* **Template Parameters**: Overview, Special cases
+* **Type Traits**: Overview, Type traits library, Type manipulation
 
 **[9. C++ Templates and Meta-programming II -  - Class Templates and SFINAE](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)**
 
-* **Class Template**: Class specialization, Class + Function - specialization, `friend` keyword, Dependent names, Template variable
+* **Class Template**: Class specialization
 * **Class Template - Advanced Concepts**: Class + Function - Specialization, Dependent Names - `typename` and `template` Keywords, `friend` Keyword, Template Template Arguments
 * **Template Meta-Programming**
 * **SFINAE: Substitution Failure Is Not An Error**: Function SFINAE, Class SFINAE, Class + Function SFINAE
-* **Variadic Template**: Folding Expression, Variadic Class Template
-* **C++20 Concepts**:  `concept` Keyword, `requires` Clause, `requires` Expression, `requires` Expression + Clause,` requires` Clause + Expression, `requires` and `constexpr`, Nested `requires`
+* **Variadic Template**: Folding Expression, Variadic class template
+* **C++20 Concepts**: Overview, `concept` Keyword, `requires` Clause, `requires` Expression, `requires` Expression + Clause, `requires` Clause + Expression, `requires` and `constexpr`, Nested `requires`
 
 **[10. Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)**
 
 * **Basic Concepts**: Translation unit, Local and global scope, Linkage
-* **Storage Class and Duration**: Storage duration, Storage class, `static` and `extern` keywords, Internal/External linkage examples, Linkage of `const` and `constexpr`, Static Initialization Order Fiasco
+* **Storage Class and Duration**: Storage duration, Storage class, `static` and `extern` keywords, Internal/External linkage examples
+* **Linkage of `const` and `constexpr`**: Static Initialization Order Fiasco
+* **Linkage Summary**
 * **Dealing with Multiple Translation Units**: Class in multiple translation units
-* **One Definition Rule (ODR)**: Global variable issues,`inline` functions/variables
-* **Function Template**: Cases, `extern` keyword
-* **Class Template**: Cases, `extern` keyword
-* **ODR and Undefined Behavior**
+* **One Definition Rule (ODR)**: Global variable issues, ODR - Point 3, `inline` functions/variables, `constexpr` and `inline`
+* **ODR - Function Template**: Cases, `extern` keyword
+* **ODR - Class Template**: Cases, `extern` keyword
+* **ODR Undefined Behavior and Summary**
 * **`#include` Issues**: Forward declaration, Include guard, Circular dependencies, Common linking errors
-* **C++20 Modules**: Terminology, Visibility and Reachability, Module unit types, Keywords, Global module fragment, Private module gragment, Header module unit, Module partitions
+* **C++20 Modules**: Overview, Terminology, Visibility and Reachability, Module unit types, Keywords, Global module fragment, Private module gragment, Header module unit, Module partitions
 * **Namespace**: Namespace functions vs. `static` methods, Namespace alias, Anonymous namespace, `inline` namespace, Attributes and namespace
 * **Compiling Multiple Translation Units**: Fundamental compiler flags, Compile Methods, Deal with libraries, Build static/dynamic libraries, Find dynamic library dependencies, Analyze object/executable symbols
 
@@ -172,7 +177,9 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 **[12. Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Ecosystem.pdf)**
 
-* **Debugging**: Assertion, Execution debugging (`gdb`)
+* **Debugging**
+* **Assertion**
+* **Execution debugging**
 * **Memory Debugging**: `valgrind`, Stack protection
 * **Sanitizers**: Address sanitizer, Leak sanitizer, Memory sanitizers, Undefined behavior sanitizer
 * **Debugging Summary**
@@ -182,7 +189,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **CMake**: `cmake` and `ctest`
 * **Code Documentation**: `doxygen`
 * **Code Statistics**: Count lines of code, Cyclomatic complexity analyzer
-* **Other Tools**: Code formatting - `clang-format`, `Compiler Explorer`, Code transformation - `CppInsights`, Code autocompletion - `TabNine/Kite`, Local code search - `ripgrep`, Code search engine - `searchcode/grep.app`, Code exploration - `SourceTrail`, Code benchmarking - `Quick-Bench`, Font for Coding
+* **Other Tools**: Code formatting - `clang-format`, `Compiler Explorer`, Code transformation - `CppInsights`, Code autocompletion - `GitHub Co-Pilot/TabNine/Kite`, Local code search - `ripgrep`, Code search engine - `searchcode/grep.app`, Code benchmarking - `Quick-Bench`, Font for Coding
 
 **[13. Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Utilities.pdf)**
 
@@ -213,7 +220,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Value Categories**
 * **`&`, `&&` Overloading - Ref-qualifiers**
 * **Copy Elision and RVO**
-* **Type Deduction**: Pass by-reference, Pass by-pointer, Pass by-value
+* **Type Deduction**: Pass by-reference, Pass by-pointer, Pass by-value, `auto` deduction
 * **`const` Correctness**
 * **Undefined Behavior**
 * **Error Handling**: C++ Exceptions, Defining custom exceptions, `noexcept` keyword, Memory allocation issues, Alternative error handling approaches
@@ -225,21 +232,21 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 * **Overview**
 * **Basic Concepts**: Asymptotic complexity, Time-Memory Trade-off, Developing Cycle, Ahmdal's law, Throughput, Bandwidth, Latency, Performance bounds, Arithmetic intensity
-* **Architecture Concepts**: Instruction-level parallelism, Little’s law, Data-level parallelism, Thread-level parallelism, RISC, CISC Instruction sets
-* **Memory Hierarchy**: Memory hierarchy concepts, Memory locality, Internal structure alignment, External structure alignment
+* **Basic Architecture Concepts**: Instruction-level parallelism, Little’s law, Data-level parallelism, Thread-level parallelism, RISC, CISC Instruction sets
+* **Memory Hierarchy**: Memory hierarchy concepts, Memory locality
 
 **[17. Optimization II - Code Optmization](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Optimization_II.pdf)**
 
-* **I/O Operations**: `printf`, Memory Mapped I/O, Speed up raw data loading
-* **Memory Optimizations**
-* **Arithmetic**: Data types, Operations, Conversion, Floating-point, Compiler intrinsic functions, Value in a Range, Lookup Table
-* **Control Flow**: Loop hoisting, Loop unrolling, Branch hints, Recursion
-* **Functions**: Function call cost, Argument passing, Function optimizations, Function inlining, Pointers Aliasing
+* **I/O Operations**: `printf`, Memory mapped I/O, Speed up raw data loading
+* **Memory Optimizations**: Heap memory, Stack memory, Cache utilization, data alignment
+* **Arithmetic**: Data types, Operations, Conversion, Floating-point, Compiler intrinsic functions, Value in a range, Lookup table
+* **Control Flow**: Loop hoisting, Loop unrolling, Branch hints, Compiler hints, Recursion
+* **Functions**: Function call cost, Argument passing, Function optimizations, Function inlining, Pointers aliasing
 * **C++ Objects**: Object RAII optimizations
 
 **[18. Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Optimization_III.pdf)**
 
-* **Compiler Optimizations**: About the compiler, Architecture flags, Optimization flags, Help the Compiler to produce better code, Profile guided optimization (PGO)
+* **Compiler Optimizations**: About the compiler, Architecture flags, Optimization flags, Help the Compiler to produce better code, Profile guided optimization (PGO), Post-Processing Binary Optimizer
 * **Compiler Transformation Techniques**
 * **Libraries and Data Structures**: External libraries, Std library
 * **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Program memory layout, Measurement overhead and compiler Optimizations, Metric evaluation
