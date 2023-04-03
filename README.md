@@ -53,17 +53,20 @@ If you enjoy the course or you find it useful, please add a **Star**
 | **7**  | **[C++ Object Oriented Programming II - Polymorphism and Operator Overloading](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_II.pdf)**    | Polymorphism, operators overloading                                                       |
 | **8**  | **[C++ Templates and Meta-programming I - Function Templates and Compile-Time Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Templates_I.pdf)** | Function template, type traits                                                            |
 | **9**  | **[C++ Templates and Meta-programming II - Class Templates and SFINAE](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_II.pdf)**                  | Class template, SFINAE                                                                    |
-| **10** | **[Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)**                                                              | Dealing with multiple translation units and files, namespace, `#include`, module          |
-| **11** | **[Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Code_Convention.pdf)**                                                                 | Project organization and main code conventions                                            |
-| **12** | **[Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Ecosystem.pdf)**                                                                              | Debugging, testing, building, documenting tools                                           |
-| **13** | **[Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Utilities.pdf)**                                                                              | Main `std` libraries                                                                      |
-| **14** | **[Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Iterators_Containers_Alg.pdf)**                                   | Containers, iterators, algorithms, ranges                                                 |
-| **15** | **[Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)**                                                                  | Move semantics, error handling, C++ idioms, exceptions                                    |
-| **16** | **[Optimization I - Basic Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Optimization_I.pdf)**                                                   | Ahmdal Law, performance bounds, architecture concepts (ILP, SIMD, etc.), memory hierarchy |
-| **17** | **[Optimization II - Code Optimization](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Optimization_II.pdf)**                                              | Arithmetic optimizations, memory optimizations, etc.                                      |
-| **18** | **[Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Optimization_III.pdf)**                    | Compiler optimizations, profiling and benchmarking tools                                  |
+| **10** | **[Translation Units I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units_I.pdf)**                                                          | Linkage and One Definition Rule                                                           |
+| **11** | **[Translation Units II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Translation_Units_II.pdf)**                                                        | Dealing with multiple translation units and files,  `#include`, and modules               |
+| **12** | **[Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Code_Convention.pdf)**                                                                 | Project organization and main code conventions                                            |
+| **13** | **[Ecosystem I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Ecosystem_I.pdf)**                                                                          | Debugging, and testing                                                                    |
+| **14** | **[Ecosystem II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Ecosystem_II.pdf)**                                                                        | Cmake, documenting, and other Tools                                                       |
+| **15** | **[Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Utilities.pdf)**                                                                              | Main `std` libraries                                                                      |
+| **16** | **[Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Iterators_Containers_Alg.pdf)**                                   | Containers, iterators, algorithms, ranges                                                 |
+| **17** | **[Advanced Topics I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Advanced_Topics_I.pdf)**                                                              | Move semantics, universal reference, type deduction                                       |
+| **18** | **[Advanced Topics II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Advanced_Topics_II.pdf)**                                                            | Error handling, C++ idioms, smart pointers                                                |
+| **19** | **[Optimization I - Basic Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/19.Optimization_I.pdf)**                                                   | Ahmdal Law, performance bounds, architecture concepts (ILP, SIMD, etc.), memory hierarchy |
+| **20** | **[Optimization II - Code Optimization](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/20.Optimization_II.pdf)**                                              | Arithmetic optimizations, memory optimizations, etc.                                      |
+| **21** | **[Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/21.Optimization_III.pdf)**                    | Compiler optimizations, profiling and benchmarking tools                                  |
 
-## TOPICS
+## TOPICS IN DETAILS
 
 **[1. Introduction](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf)**
 
@@ -143,7 +146,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Variadic Template**: Folding Expression, Variadic class template
 * **C++20 Concepts**: Overview, `concept` Keyword, `requires` Clause, `requires` Expression, `requires` Expression + Clause, `requires` Clause + Expression, `requires` and `constexpr`, Nested `requires`
 
-**[10. Translation Units](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units.pdf)**
+**[10. Translation Units I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Translation_Units_I.pdf)**
 
 * **Basic Concepts**: Translation unit, Local and global scope, Linkage
 * **Storage Class and Duration**: Storage duration, Storage class, `static` and `extern` keywords, Internal/External linkage examples
@@ -154,12 +157,15 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **ODR - Function Template**: Cases, `extern` keyword
 * **ODR - Class Template**: Cases, `extern` keyword
 * **ODR Undefined Behavior and Summary**
-* **`#include` Issues**: Forward declaration, Include guard, Circular dependencies, Common linking errors
-* **C++20 Modules**: Overview, Terminology, Visibility and Reachability, Module unit types, Keywords, Global module fragment, Private module gragment, Header module unit, Module partitions
-* **Namespace**: Namespace functions vs. `static` methods, Namespace alias, Anonymous namespace, `inline` namespace, Attributes and namespace
-* **Compiling Multiple Translation Units**: Fundamental compiler flags, Compile Methods, Deal with libraries, Build static/dynamic libraries, Find dynamic library dependencies, Analyze object/executable symbols
 
-**[11. Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Code_Convention.pdf)**
+**[11. Translation Units II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Translation_Units_II.pdf)**
+
+- **`#include` Issues**: Forward declaration, Include guard, Circular dependencies, Common linking errors
+- **C++20 Modules**: Overview, Terminology, Visibility and Reachability, Module unit types, Keywords, Global module fragment, Private module gragment, Header module unit, Module partitions
+- **Namespace**: Namespace functions vs. `static` methods, Namespace alias, Anonymous namespace, `inline` namespace, Attributes and namespace
+- **Compiling Multiple Translation Units**: Fundamental compiler flags, Compile Methods, Deal with libraries, Build static/dynamic libraries, Find dynamic library dependencies, Analyze object/executable symbols
+
+**[12. Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Code_Convention.pdf)**
 
 * **C++ Project Organization**: Project directories, Project files, `src/include` directories
 * **Coding Styles and Conventions**
@@ -175,7 +181,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Naming and Formatting**
 * **Code Documentation**
 
-**[12. Ecosystem](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Ecosystem.pdf)**
+**[13. Ecosystem I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Ecosystem_I.pdf)**
 
 * **Debugging**
 * **Assertion**
@@ -186,12 +192,15 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Code Checking and Analysis**: Compiler warnings, Static analyzers
 * **Code Testing**: Unit test, Code coverage, Fuzz testing
 * **Code Quality**: `clang-tidy`
-* **CMake**: `cmake` and `ctest`
-* **Code Documentation**: `doxygen`
-* **Code Statistics**: Count lines of code, Cyclomatic complexity analyzer
-* **Other Tools**: Code formatting - `clang-format`, `Compiler Explorer`, Code transformation - `CppInsights`, Code autocompletion - `GitHub Co-Pilot/TabNine/Kite`, Local code search - `ripgrep`, Code search engine - `searchcode/grep.app`, Code benchmarking - `Quick-Bench`, Font for Coding
 
-**[13. Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Utilities.pdf)**
+**[14. Ecosystem II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Ecosystem_II.pdf)**
+
+- **CMake**: `cmake` and `ctest`
+- **Code Documentation**: `doxygen`
+- **Code Statistics**: Count lines of code, Cyclomatic complexity analyzer
+- **Other Tools**: Code formatting - `clang-format`, `Compiler Explorer`, Code transformation - `CppInsights`, Code autocompletion - `GitHub Co-Pilot/TabNine/Kite`, Local code search - `ripgrep`, Code search engine - `searchcode/grep.app`, Code benchmarking - `Quick-Bench`, Font for Coding
+
+**[15. Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Utilities.pdf)**
 
 * **I/O Stream**: Manipulator, `ofstream/ifstream`
 * **Math Libraries**
@@ -201,7 +210,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Std Template Classes**: `std::byte` `std::pair`, `std::tuple`, `std::variant`, `std::optional`, `std::any`
 * **Filesystem Library**: Query methods, Modify methods
 
-**[14. Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Iterators_Containers_Alg.pdf)**
+**[16. Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Iterators_Containers_Alg.pdf)**
 
 * **Containers and Iterators**
 * **Sequence Containers**: `std::array`, `std::vector`, `std::list`, `std::deque`, `std::forward_list`
@@ -213,7 +222,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Algorithms Library**: `std::find_if`, `std::sort`, `std::accumulate`, `std::generate`, `std::remove_if`
 * **C++20 Ranges**: Key concepts, Range view,  Range adaptor, Range factory, Range algorithms, Range actions
 
-**[15. Advanced Topics](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Advanced_Topics.pdf)**
+**[17. Advanced Topics I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Advanced_Topics_I.pdf)**
 
 * **Move Semantic**: `lvalues` and `rvalues` references, Move semantic, Compiler implicitly declared, `std::move`
 * **Universal Reference and Perfect Forwarding**: Universal reference, Reference collapsing rules, Perfect forwarding
@@ -222,20 +231,23 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Copy Elision and RVO**
 * **Type Deduction**: Pass by-reference, Pass by-pointer, Pass by-value, `auto` deduction
 * **`const` Correctness**
-* **Undefined Behavior**
-* **Error Handling**: C++ Exceptions, Defining custom exceptions, `noexcept` keyword, Memory allocation issues, Alternative error handling approaches
-* **C++ Idioms**: Rule of zero/three/five, Singleton, PIMPL, CRTP, Template Virtual Functions
-* **Smart pointers**: `std::unique_ptr`, `std::shared_ptr`, `std::weak_ptr`
-* **Concurrency**: Thread Methods, Mutex, Atomic, Task-based parallelism
 
-**[16. Optimization I - Basic Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Optimization_I.pdf)**
+**[18. Advanced Topics II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Advanced_Topics_II.pdf)**
+
+- **Undefined Behavior**
+- **Error Handling**: C++ Exceptions, Defining custom exceptions, `noexcept` keyword, Memory allocation issues, Alternative error handling approaches
+- **C++ Idioms**: Rule of zero/three/five, Singleton, PIMPL, CRTP, Template Virtual Functions
+- **Smart pointers**: `std::unique_ptr`, `std::shared_ptr`, `std::weak_ptr`
+- **Concurrency**: Thread Methods, Mutex, Atomic, Task-based parallelism
+
+**[19. Optimization I - Basic Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/19.Optimization_I.pdf)**
 
 * **Overview**
 * **Basic Concepts**: Asymptotic complexity, Time-Memory Trade-off, Developing Cycle, Ahmdal's law, Throughput, Bandwidth, Latency, Performance bounds, Arithmetic intensity
 * **Basic Architecture Concepts**: Instruction-level parallelism, Little’s law, Data-level parallelism, Thread-level parallelism, RISC, CISC Instruction sets
 * **Memory Hierarchy**: Memory hierarchy concepts, Memory locality
 
-**[17. Optimization II - Code Optmization](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Optimization_II.pdf)**
+**[20. Optimization II - Code Optmization](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/20.Optimization_II.pdf)**
 
 * **I/O Operations**: `printf`, Memory mapped I/O, Speed up raw data loading
 * **Memory Optimizations**: Heap memory, Stack memory, Cache utilization, data alignment
@@ -244,7 +256,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Functions**: Function call cost, Argument passing, Function optimizations, Function inlining, Pointers aliasing
 * **C++ Objects**: Object RAII optimizations
 
-**[18. Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Optimization_III.pdf)**
+**[21. Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/21.Optimization_III.pdf)**
 
 * **Compiler Optimizations**: About the compiler, Architecture flags, Optimization flags, Help the Compiler to produce better code, Profile guided optimization (PGO), Post-Processing Binary Optimizer
 * **Compiler Transformation Techniques**
@@ -278,7 +290,5 @@ If you find any typo, conceptual error, or section to improve, please report the
 
 `Federico Busato`
 
-- Nvidia Corporation [fbusato@nvidia.com](mailto:fbusato@nvidia.com)
-- Dept. of Computer Science, University of Verona, Italy [federico.busato@univr.it](mailto:federico.busato@univr.it)
 - Twitter: [twitter.com/fedebusato](https://twitter.com/fedebusato)
 - Linkedin: [www.linkedin.com/in/federico-busato/](https://www.linkedin.com/in/federico-busato/)
