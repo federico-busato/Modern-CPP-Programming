@@ -190,7 +190,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Sanitizers**: Address sanitizer, Leak sanitizer, Memory sanitizers, Undefined behavior sanitizer
 * **Debugging Summary**
 * **Code Checking and Analysis**: Compiler warnings, Static analyzers
-* **Code Testing**: Unit test, Code coverage, Fuzz testing
+* **Code Testing**: Unit test, Test-Driven Development (TDD), Code coverage, Fuzz testing
 * **Code Quality**: `clang-tidy`
 
 **[14. Ecosystem II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Ecosystem_II.pdf)**
@@ -250,7 +250,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 **[20. Optimization II - Code Optmization](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/20.Optimization_II.pdf)**
 
 * **I/O Operations**: `printf`, Memory mapped I/O, Speed up raw data loading
-* **Memory Optimizations**: Heap memory, Stack memory, Cache utilization, data alignment
+* **Memory Optimizations**: Heap memory, Stack memory, Cache utilization, data alignment, memory prefecth
 * **Arithmetic**: Data types, Operations, Conversion, Floating-point, Compiler intrinsic functions, Value in a range, Lookup table
 * **Control Flow**: Loop hoisting, Loop unrolling, Branch hints, Compiler hints, Recursion
 * **Functions**: Function call cost, Argument passing, Function optimizations, Function inlining, Pointers aliasing
