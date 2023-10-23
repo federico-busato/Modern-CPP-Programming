@@ -86,7 +86,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **`auto` declaration**
 * **C++ Operators**: Operators precedence, Prefix/Postfix increment/decrement, Assignment, Compound , and Comma operators, Spaceship operator `<=>` , Safe Comparison Operators
 * **Integral Data Types**: Fixed width integers, `size_t` and`ptrdiff_t`, When use signed/unsigned integer? Promotion, Truncation, Undefined behavior
-* **Floating-point Types and Arithmetic**: Normal/Denormal values, Infinity, Not a Number (`NaN`), Summary, Properties
+* **Floating-point Types and Arithmetic**: IEEE Floating-point Standard and Other Representations, Normal/Denormal values, Infinity, Not a Number (`NaN`), Machine Epsilon, Units at the Last Place (ULP), Cheatsheet, Summary, Arithmetic Properties, Detect Floating-point Errors
 * **Floating-point Issues**: Catastrophic cancellation, Floating-point comparison
 
 **[3. Basic Concepts II - Entities and Control Flow](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)**
@@ -101,6 +101,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Initialization**: Variable initialization, Uniform initialization, Fixed-size array initialization, Structure initialization, Dynamic memory initialization
 * **Pointers and References**: Pointer Operations, Address-of operator `&`, Reference
 * **Constant and Literals, `const`, `constexpr`, `consteval`, `constinit`**, `if constexpr`, `std::is constant evaluated()`, `if consteval`
+* **`volatile` keyword**
 * **Explicit Type Conversion**: `static_cast`, `const_cast`, `reinterpret_cast`, Type punning
 * `sizeof` Operator
 
@@ -167,7 +168,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 **[12. Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Code_Convention.pdf)**
 
-* **C++ Project Organization**: Project directories, Project files, `src/include` directories, Alternative project organization
+* **C++ Project Organization**: Project directories, Project files, “Common” Project Organization Notes, Alternative - “Canonical” project organization
 * **Coding Styles and Conventions**
 * **`#include`**
 * **Macro and Preprocessing**
@@ -229,7 +230,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Move Semantic**: `lvalues` and `rvalues` references, Move semantic, Compiler implicitly declared, `std::move`
 * **Universal Reference and Perfect Forwarding**: Universal reference, Reference collapsing rules, Perfect forwarding
 * **Value Categories**
-* **`&`, `&&` Overloading - Ref-qualifiers**
+* **`&`, `&&` Ref-qualifiers and `volatile` Overloading**
 * **Copy Elision and RVO**
 * **Type Deduction**: Pass by-reference, Pass by-pointer, Pass by-value, `auto` deduction
 * **`const` Correctness**
@@ -244,7 +245,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 **[19. Optimization I - Basic Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/19.Optimization_I.pdf)**
 
-* **Overview**
+* **Introduction**: Moore’s Law, Moore’s Law limitations, Reasons for Optimizing
 * **Basic Concepts**: Asymptotic complexity, Time-Memory Trade-off, Developing Cycle, Ahmdal's law, Throughput, Bandwidth, Latency, Performance bounds, Arithmetic intensity
 * **Basic Architecture Concepts**: Instruction-level parallelism (ILP), Little’s law, Data-level parallelism (SIMD), Thread-level parallelism (TLP), Single Instruction Multiple Threads (SIMT), RISC, CISC Instruction sets
 * **Memory Hierarchy**: Memory hierarchy concepts, Memory locality
@@ -261,10 +262,10 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 **[21. Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/21.Optimization_III.pdf)**
 
-* **Compiler Optimizations**: About the compiler, Architecture flags, Optimization flags, Help the Compiler to produce better code, Profile guided optimization (PGO), Post-Processing Binary Optimizer
+* **Compiler Optimizations**: About the compiler, Compiler optimization flags, Linker optimization flags, Architecture flags, Help the Compiler to produce better code, Profile guided optimization (PGO), Post-Processing Binary Optimizer
 * **Compiler Transformation Techniques**
 * **Libraries and Data Structures**: External libraries, Std library
-* **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Program memory layout, Measurement overhead and compiler optimizations, Metric evaluation
+* **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Program, Multi-threads considerations, Program memory layout, Measurement overhead, Compiler optimizations, Metric evaluation
 * **Profiling**: `gprof`, `uftrace`, `callgrind`, `cachegrind`, `perf` Linux profiler
 * **Parallel Computing**: Concurrency vs. Parallelism, Performance scaling, Gustafson’s Law, Parallel programming languages
 
