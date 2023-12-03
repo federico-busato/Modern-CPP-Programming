@@ -8,18 +8,23 @@
         <img src="https://img.shields.io/github/v/release/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
     </a>
 </p>
+
+<p align="center">
+    <a alt="Stars">
+        <img src="https://img.shields.io/github/stars/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
+    </a>
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming/network/members" alt="Forks">
+        <img src="https://img.shields.io/github/forks/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
+    </a>
+</p>
 <p align="center">
     <a href="https://github.com/federico-busato/Modern-CPP-Programming/commits/master" alt="Commits">
         <img src="https://badgen.net/github/commits/federico-busato/Modern-CPP-Programming?style=for-the-badge&scale=1.2"/>
     </a>
 </p>
-
 <p align="center">
-    <a href="https://github.com/federico-busato/Modern-CPP-Programming/network/members" alt="Forks">
-        <img src="https://img.shields.io/github/forks/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
-    </a>
-    <a alt="Stars">
-        <img src="https://img.shields.io/github/stars/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming-Material/issues" alt="Issues">
+        <img src="https://badgen.net/github/closed-issues/federico-busato/Modern-CPP-Programming?style=for-the-badge&scale=1.2"/>
     </a>
 </p>
 
@@ -30,8 +35,9 @@ This *open-access* course is directed at those who are already familiar with C a
 **Key features**:
 
 - *Free and frequently updated*
+- *22 lectures, ~1500 slides*
 - Include the *last language standard* concepts and features
-- *Practical teaching*: small structured descriptions associated with code
+- *Practical teaching*: non-verbose, short structured descriptions associated with code
 - *Minimal code examples* for showing just a specific feature or issue without digressing
 - *Complementary language aspects*: tools, coding conventions, project organization, and code optimization
 - *Experience-based*: many aspects, examples, and problems come from real-world cases faced during my work as software engineer
@@ -42,7 +48,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 ## CHAPTERS
 
-|        | TITLE                                                                                                                                                                            | MAIN FOCUS                                                                                |
+| #      | TITLE                                                                                                                                                                            | MAIN FOCUS                                                                                |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | **1**  | **[Introduction](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf)**                                                                    | History of C/C++, Areas of Applications, Course introduction                              |
 | **2**  | **[Basic Concepts I - Fundamental Types](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf)**                                        | Types overview, operators, and conversion                                                 |
@@ -66,6 +72,8 @@ If you enjoy the course or you find it useful, please add a **Star**
 | **20** | **[Optimization I - Basic Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/20.Optimization_I.pdf)**                                               | Ahmdal Law, performance bounds, architecture concepts (ILP, SIMD, etc.), memory hierarchy |
 | **21** | **[Optimization II - Code Optimization](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/21.Optimization_II.pdf)**                                          | Arithmetic optimizations, memory optimizations, etc.                                      |
 | **22** | **[Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/22.Optimization_III.pdf)**                | Compiler optimizations, profiling and benchmarking tools                                  |
+
+***ALL-IN-ONE BOOK***: **[modern-cpp.pdf](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/modern-cpp.pdf)**
 
 ## TOPICS IN DETAILS
 
@@ -284,15 +292,11 @@ Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
 
 * for code execution: [Add new..] -> [execution only]
 
-### Reporting bugs and contributing
+### Reporting bugs 🐛 and contributing
 
-If you find any typo, conceptual error, or section to improve, please report them by writing directly to me or by using the `issue` panel
+If you find any typo, conceptual error, or section to improve, please report them by using the `issue` panel.
 
-<p align="center">
-    <a href="https://github.com/federico-busato/Modern-CPP-Programming-Material/issues" alt="Issues">
-        <img src="https://img.shields.io/github/issues-closed/federico-busato/Modern-CPP-Programming?style=for-the-badge"/>
-    </a>
-</p>
+
 
 ## Author
 
