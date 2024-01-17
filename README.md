@@ -154,7 +154,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 **[10. Templates and Meta-programming II -  Class Templates and SFINAE](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Templates_II.pdf)**
 
-* **Class Template**: Class specialization, Template class constructor, Constructor template automatic deduction (CTAD)
+* **Class Template**: Class specialization, Class template constructor, Constructor template automatic deduction (CTAD)
 * **Class Template - Advanced Concepts**: Class + Function - Specialization, Dependent Names - `typename` and `template` Keywords, Class template hierarchy and `using`, `friend` Keyword, Template Template Arguments
 * **Template Meta-Programming**
 * **SFINAE: Substitution Failure Is Not An Error**: Function SFINAE, Class SFINAE, Class + Function SFINAE
@@ -224,7 +224,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Math Libraries**
 * **Random Number**: Basic Concepts, C++ `<random>`, Seed, PRNG period and quality, Distribution, Quasi-random
 * **Time Measuring**: Wall-Clock time, User time, System time
-* **Std Template Classes**: `std::pair`, `std::tuple`, `std::variant`, `std::optional`, `std::any`, `std::stacktrace`
+* **Std Class Templates**: `std::pair`, `std::tuple`, `std::variant`, `std::optional`, `std::any`, `std::stacktrace`
 * **Filesystem Library**: Query methods, Modify methods
 
 **[17. Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Iterators_Containers_Alg.pdf)**
