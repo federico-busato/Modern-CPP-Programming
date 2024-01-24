@@ -277,7 +277,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 **[22. Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/22.Optimization_III.pdf)**
 
 * **Compiler Optimizations**: About the compiler, Compiler optimization flags, Linker optimization flags, Architecture flags, Help the Compiler to produce better code, Profile guided optimization (PGO), Post-Processing Binary Optimizer
-* **Compiler Transformation Techniques**
+* **Compiler Transformation Techniques**: Basic Transformations, Loop unswitching, Loop fusion, Loop fission, Loop interchange, Loop tiling
 * **Libraries and Data Structures**: External libraries
 * **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Program, Multi-threads considerations, Program memory layout, Measurement overhead, Compiler optimizations, Metric evaluation
 * **Profiling**: `gprof`, `uftrace`, `callgrind`, `cachegrind`, `perf` Linux profiler
