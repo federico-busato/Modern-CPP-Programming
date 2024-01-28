@@ -131,7 +131,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **C++ Classes**: RAII Idiom
 * **Class Hierarchy**
 * **Access specifiers**: Inheritance access specifiers, When use `public/protected/private` for data members?
-* **Class Constructor**: Default constructor, Class initialization, Uniform initialization for pbjects, Delegate constructor, `explicit` keyword, `[[nodiscard]]` and classes
+* **Class Constructor**: Default constructor, Class initialization, Uniform initialization for objects, Delegate constructor, `explicit` keyword, `[[nodiscard]]` and classes
 * **Copy Constructor**
 * **Class Destructor**
 * **Defaulted  Constructors, Destructor, and Operators** (`= default`)
