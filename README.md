@@ -48,35 +48,35 @@ This *open-access* course is directed at those who are already familiar with C a
 
 ## CHAPTERS
 
-| #      | TITLE                                                                                                                         | MAIN FOCUS                                                                                        |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| **1**  | [**Introduction**](01.Introduction.pdf) ([html](htmls/01.Introduction.html))                                                  | History of C/C++, Areas of applications, Course introduction                                      |
-| **2**  | [**Preparation**](02.Preparation.pdf) ([html](htmls/02.Preparation.html))                                                     | Books, How to compile, Hello world                                                                |
-| **3**  | [**Basic Concepts I**](03.Basic_Concepts_I.pdf) ([html](htmls/03.Basic_Concepts_I.html))                                      | Type System, Fundamental types, and Operators                                                     |
-| **4**  | [**Basic Concepts II**](04.Basic_Concepts_II.pdf) ([html](htmls/04.Basic_Concepts_II.html))                                   | Integral and Floating-point types and their arithmetic                                            |
-| **5**  | [**Basic Concepts III**](05.Basic_Concepts_III.pdf) ([html](htmls/05.Basic_Concepts_III.html))                                | Entities, Enumerators, Structures, Control flow statements                                        |
-| **6**  | [**Basic Concepts IV**](06.Basic_Concepts_IV.pdf) ([html](htmls/06.Basic_Concepts_IV.html))                                   | Heap, Stack, Pointers, References, Const properties, Conversion operators                         |
-| **7**  | [**Basic Concepts V**](07.Basic_Concepts_V.pdf) ([html](htmls/07.Basic_Concepts_V.html))                                      | Functions, Lambda expressions, Preprocessing directives                                           |
-| **8**  | [**Object-Oriented Programming I**](08.Object_Oriented_I.pdf) ([html](htmls/08.Object_Oriented_I.html))                       | Class hierarchy, Constructor, Destructor, Class keywords                                          |
-| **9**  | [**Object Oriented Programming II**](09.Object_Oriented_II.pdf) ([html](htmls/09.Object_Oriented_II.html))                    | Polymorphism, Operators overloading                                                               |
-| **10** | [**Templates and Meta-programming I**](10.Templates_I.pdf) ([html](htmls/10.Templates_I.html))                                | Function template, Type traits, Compile-time utilities                                            |
-| **11** | [**Templates and Meta-programming II**](11.Templates_II.pdf) ([html](htmls/11.Templates_II.html))                             | Class template, SFINAE                                                                            |
-| **12** | [**Translation Units I**](12.Translation_Units_I.pdf) ([html](htmls/12.Translation_Units_I.html))                             | Linkage and One Definition Rule                                                                   |
-| **13** | [**Translation Units II**](13.Translation_Units_II.pdf) ([html](htmls/13.Translation_Units_II.html))                          | Dealing with multiple translation units and files,`#include`, Modules                             |
-| **14** | [**Code Conventions**](14.Code_Convention.pdf) ([html](htmls/14.Code_Convention.html))                                        | Project organization, Main code conventions                                                       |
-| **15** | [**Debugging and Testing**](15.Debugging.pdf) ([html](htmls/15.Debugging.html))                                               | Execution/memory debugging, Sanitizers, Harding techniques, Unit test, Test-Driven Development    |
-| **16** | [**Ecosystem**](16.Ecosystem.pdf) ([html](htmls/16.Ecosystem.html))                                                           | Cmake, Documenting, and Other Tools                                                               |
-| **17** | [**Utilities**](17.Utilities.pdf) ([html](htmls/17.Utilities.html))                                                           | Main `std` libraries                                                                              |
-| **18** | [**Containers, Iterators, and Algorithms**](18.Iterators_Containers_Alg.pdf) ([html](htmls/18.Iterators_Containers_Alg.html)) | Containers, Iterators, Algorithms, Ranges                                                         |
-| **19** | [**Advanced Topics I**](19.Advanced_Topics_I.pdf) ([html](htmls/19.Advanced_Topics_I.html))                                   | Move semantics, Universal reference, Type deduction                                               |
-| **20** | [**Advanced Topics II**](20.Advanced_Topics_II.pdf) ([html](htmls/20.Advanced_Topics_II.html))                                | Error handling, C++ idioms, Smart pointers                                                        |
-| **21** | [**Performance Optimizations I**](21.Optimization_I.pdf) ([html](htmls/21.Optimization_I.html))                               | Ahmdal Law, Performance bounds, Architecture concepts (ILP, SIMD, etc.), Memory hierarchy         |
-| **22** | [**Performance Optimizations II**](22.Optimization_II.pdf) ([html](htmls/22.Optimization_II.html))                            | Arithmetic optimizations, Memory optimizations, etc.                                              |
-| **23** | [**Performance Optimizations III**](23.Optimization_III.pdf) ([html](htmls/23.Optimization_III.html))                         | Compiler optimizations, Profiling, Benchmarking tools                                             |
-| **24** | [**Software Design I**](24.Software_Deisgn_I.pdf) ([html](htmls/24.Software_Deisgn_I.html))                                   | Basic Concepts, Principles, Use cases                                                             |
-| **25** | [**Software Design II**](25.Software_Deisgn_II.pdf) ([html](htmls/25.Software_Deisgn_II.html))                                | Design Patterns and Idioms                                                                        |
+| #      | TITLE                                                                                                                                                                                  | MAIN FOCUS                                                                                        |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **1**  | [**Introduction**](01.Introduction.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/01.Introduction.html))                                                  | History of C/C++, Areas of applications, Course introduction                                      |
+| **2**  | [**Preparation**](02.Preparation.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/02.Preparation.html))                                                     | Books, How to compile, Hello world                                                                |
+| **3**  | [**Basic Concepts I**](03.Basic_Concepts_I.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/03.Basic_Concepts_I.html))                                      | Type System, Fundamental types, and Operators                                                     |
+| **4**  | [**Basic Concepts II**](04.Basic_Concepts_II.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/04.Basic_Concepts_II.html))                                   | Integral and Floating-point types and their arithmetic                                            |
+| **5**  | [**Basic Concepts III**](05.Basic_Concepts_III.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/05.Basic_Concepts_III.html))                                | Entities, Enumerators, Structures, Control flow statements                                        |
+| **6**  | [**Basic Concepts IV**](06.Basic_Concepts_IV.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/06.Basic_Concepts_IV.html))                                   | Heap, Stack, Pointers, References, Const properties, Conversion operators                         |
+| **7**  | [**Basic Concepts V**](07.Basic_Concepts_V.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/07.Basic_Concepts_V.html))                                      | Functions, Lambda expressions, Preprocessing directives                                           |
+| **8**  | [**Object-Oriented Programming I**](08.Object_Oriented_I.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/08.Object_Oriented_I.html))                       | Class hierarchy, Constructor, Destructor, Class keywords                                          |
+| **9**  | [**Object Oriented Programming II**](09.Object_Oriented_II.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/09.Object_Oriented_II.html))                    | Polymorphism, Operators overloading                                                               |
+| **10** | [**Templates and Meta-programming I**](10.Templates_I.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/10.Templates_I.html))                                | Function template, Type traits, Compile-time utilities                                            |
+| **11** | [**Templates and Meta-programming II**](11.Templates_II.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/11.Templates_II.html))                             | Class template, SFINAE                                                                            |
+| **12** | [**Translation Units I**](12.Translation_Units_I.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/12.Translation_Units_I.html))                             | Linkage and One Definition Rule                                                                   |
+| **13** | [**Translation Units II**](13.Translation_Units_II.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/13.Translation_Units_II.html))                          | Dealing with multiple translation units and files,`#include`, Modules                             |
+| **14** | [**Code Conventions**](14.Code_Convention.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/14.Code_Convention.html))                                        | Project organization, Main code conventions                                                       |
+| **15** | [**Debugging and Testing**](15.Debugging.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/15.Debugging.html))                                               | Execution/memory debugging, Sanitizers, Harding techniques, Unit test, Test-Driven Development    |
+| **16** | [**Ecosystem**](16.Ecosystem.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/16.Ecosystem.html))                                                           | Cmake, Documenting, and Other Tools                                                               |
+| **17** | [**Utilities**](17.Utilities.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/17.Utilities.html))                                                           | Main `std` libraries                                                                              |
+| **18** | [**Containers, Iterators, and Algorithms**](18.Iterators_Containers_Alg.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/18.Iterators_Containers_Alg.html)) | Containers, Iterators, Algorithms, Ranges                                                         |
+| **19** | [**Advanced Topics I**](19.Advanced_Topics_I.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/19.Advanced_Topics_I.html))                                   | Move semantics, Universal reference, Type deduction                                               |
+| **20** | [**Advanced Topics II**](20.Advanced_Topics_II.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/20.Advanced_Topics_II.html))                                | Error handling, C++ idioms, Smart pointers                                                        |
+| **21** | [**Performance Optimizations I**](21.Optimization_I.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/21.Optimization_I.html))                               | Ahmdal Law, Performance bounds, Architecture concepts (ILP, SIMD, etc.), Memory hierarchy         |
+| **22** | [**Performance Optimizations II**](22.Optimization_II.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/22.Optimization_II.html))                            | Arithmetic optimizations, Memory optimizations, etc.                                              |
+| **23** | [**Performance Optimizations III**](23.Optimization_III.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/23.Optimization_III.html))                         | Compiler optimizations, Profiling, Benchmarking tools                                             |
+| **24** | [**Software Design I**](24.Software_Deisgn_I.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/24.Software_Deisgn_I.html))                                   | Basic Concepts, Principles, Use cases                                                             |
+| **25** | [**Software Design II**](25.Software_Deisgn_II.pdf) ([html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/25.Software_Deisgn_II.html))                                | Design Patterns and Idioms                                                                        |
 
-***ALL-IN-ONE BOOK***: [**modern-cpp.pdf**](modern-cpp.pdf) (could be a few commits behind), [html](htmls/modern-cpp.html)
+***ALL-IN-ONE BOOK***: [**modern-cpp.pdf**](modern-cpp.pdf) (could be a few commits behind), [html](https://federico-busato.github.io/Modern-CPP-Programming/htmls/modern-cpp.html)
 
 ## TOPICS IN DETAILS
 
@@ -260,7 +260,7 @@ This *open-access* course is directed at those who are already familiar with C a
 * **Value Categories**
 * **`&`, `&&` Ref-qualifiers and `volatile` Overloading**
 * **Copy Elision and RVO**
-* **Type Deduction**: Pass by-reference, Pass by-pointer, Pass by-value, `auto` deduction, **auto(x)**: Decay-copy
+* **Type Deduction**: Pass by-reference, Pass by-pointer, Pass by-value, `auto` deduction, `auto(x)`: Decay-copy
 * **`const` Correctness**
 
 **[20. Advanced Topics II](20.Advanced_Topics_II.pdf)**
@@ -294,34 +294,24 @@ This *open-access* course is directed at those who are already familiar with C a
 * **Libraries and Data Structures**: External libraries
 * **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Multi-threads considerations, Program memory layout, Measurement overhead, Compiler optimizations, Metric evaluation
 * **Profiling**: `gprof`, `uftrace`, `callgrind`, `cachegrind`, `perf` Linux profiler
-* **Parallel Computing**: Concurrency vs. parallelism, Performance scaling, Gustafson’s Law, Parallel programming languages
+* **Parallel Computing**: Concurrency vs. parallelism, Performance scaling, Gustafson's Law, Parallel programming languages
 
 **[24. Software Design I - Basic Concepts (DRAFT)](24.Software_Design_I.pdf)**
 
 - **Books and References**
-
 - **Basic Concepts**: Abstraction, interface, and module, Class Invariant
-
 - **Software Design Principles**: Separation of concern, Low coupling, high cohesion, Encapsulation and information hiding, Design by contract, Problem decomposition, Code reuse
-
 - **Software Complexity**: Software entropy, Technical debt
-
 - **The SOLID Design Principles**
-
 - **Member Functions vs. Free Functions**
-
 - **BLAS GEMM Case Study**
-
 - **Owning Objects and Views**
-
 - **Value vs. Reference Semantic**
-
 - **Global Variables**
 
 **[25. Software Design II - Design Patterns and Idioms (DRAFT)](25.Software_Design_II.pdf)**
 
 - **C++ Idioms**: Rule of Zero, Rule of Three, Rule of Five
-
 - **Design Pattern**: Singleton, PIMPL, Curiously Recurring Template Pattern (CRTP), Template virtual functions
 
 ### Roadmap
