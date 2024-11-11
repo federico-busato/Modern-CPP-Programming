@@ -123,7 +123,7 @@ This *open-access* course is directed at those who are already familiar with C a
 
 **[6. Basic Concepts IV - Memory Concepts](06.Basic_Concepts_IV.pdf)**
 
-* **Pointers**: Pointer operations, Address-of operator `&`
+* **Pointers**: Pointer operations, Address-of operator `&`, `struct` member access, `void` pointer, Pointer conversion, Pointer arithmetic, Wild and dangling pointers
 * **Heap and Stack**: Stack memory, `new`, `delete`, Non-allocating placement allocation, Non-throwing allocation, Memory leak
 * **Initialization**: Variable initialization, Uniform initialization, Array initialization, Structure initialization, Structure Binding, Dynamic memory initialization
 * **References**
