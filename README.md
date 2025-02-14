@@ -338,5 +338,5 @@ If you find any typo, conceptual error, or section to improve, please report the
 
 `Federico Busato`, https://federico-busato.github.io/
 
-- LinkedIn: [www.linkedin.com/in/federico-busato/](https://www.linkedin.com/in/federico-busato/)
-- Twitter: [twitter.com/fedebusato](https://twitter.com/fedebusato)
+- &#127760; LinkedIn: [www.linkedin.com/in/federico-busato/](https://www.linkedin.com/in/federico-busato/)
+- &#129419; Bluesky: [fbusato.bsky.social](https://bsky.app/profile/fbusato.bsky.social)
