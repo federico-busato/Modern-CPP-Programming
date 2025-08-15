@@ -23,7 +23,7 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://github.com/federico-busato/Modern-CPP-Programming-Material/issues" alt="Issues">
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming/issues" alt="Issues">
         <img src="https://badgen.net/github/closed-issues/federico-busato/Modern-CPP-Programming?style=for-the-badge&scale=1.2"/>
     </a>
 </p>
