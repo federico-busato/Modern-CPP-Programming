@@ -50,7 +50,14 @@ This *open-access* course is directed at those who are already familiar with C a
 
 1. Move from Latex to [Typst](https://typst.app/).
 2. Fully-open source the material and allow direct contribution.
-3. LLM-assisted editing for readability improvements. 
+
+## Table of Contents
+
+- [Chapters](#chapters)
+- [Topics in Details](#topics-in-details)
+- [Reporting Bugs 🐛 and Contributing](#reporting-bugs--and-contributing)
+- [Where the Course has been used](#where-the-course-has-been-used)
+- [Author](#author)
 
 ## CHAPTERS
 
@@ -352,7 +359,7 @@ Font for coding.
 - **Compiler and Linker Techniques**: Optimization flags, Debugging and runtime information flags, Symbol visibility, Exceptions flags, Linker flags, Link-Time Optimization (LTO), CMake support.
 - **Coding Aspects**: Function Inlining, Function Visibility, Templates, Static Storage Duration, Linkage, Polymorphic classes, Exceptions, Header Inclusion.
 - **Binary Size Tools**: `nm` and `objdump`, `Bloaty`, Executable packer.
-- 
+
 **[29. Build Time](29.Build_time.pdf)**
 
 - **Compile Time Introduction**: The importance of build time, Causes of long build time.
@@ -367,9 +374,15 @@ Font for coding.
 - **Other Aspects**: C++20 modules, Overload resolution, other code aspects, Pointer Implementation (PIMPL), Include guard vs. `#pragma once`, Static vs. dynamic linking, Comments and formatting, External factors.
 - **Tools to Analyze Build Time**: Clang build-time analysis, `ninjatracing`, `Templight`, `Build Bench`, Visual Studio - `CompileScore`, Visual Studio - `C++ Build Insights`.
 
-### Reporting bugs 🐛 and contributing
+## Reporting Bugs 🐛 and Contributing
 
 If you find any typo, conceptual error, or section to improve, please report it using the `Issues` panel.
+
+## Where the Course has been used
+
+The **Modern C++ Programming** course was created in 2018 and adopted by the [University of Verona](https://www.univr.it/en/university), Italy. It is taught as part of the Bachelor's and Master's degree programmes in Computer Science, for three and two years respectively. The course has also been used to train interns at NVIDIA.
+
+*Have you adopted the course, or are you interested in using it in certain contexts?* If so, please get in touch so that I can keep track of usage. I'm also willing to share the LaTeX source code (the Tyst version will be open-sourced on GitHub soon).
 
 ## Author
 
