@@ -57,6 +57,7 @@ This *open-access* course is directed at those who are already familiar with C a
 - [Topics in Details](#topics-in-details)
 - [Reporting Bugs 🐛 and Contributing](#reporting-bugs--and-contributing)
 - [Where the Course has been used](#where-the-course-has-been-used)
+- [License](#license)
 - [Author](#author)
 
 ## CHAPTERS
@@ -383,6 +384,13 @@ If you find any typo, conceptual error, or section to improve, please report it 
 The **Modern C++ Programming** course was created in 2018 and adopted by the [University of Verona](https://www.univr.it/en/university), Italy. It is taught as part of the Bachelor's and Master's degree programmes in Computer Science, for three and two years respectively. The course has also been used to train interns at NVIDIA.
 
 *Have you adopted the course, or are you interested in using it in certain contexts?* If so, please get in touch so that I can keep track of usage. I'm also willing to share the LaTeX source code (the Tyst version will be open-sourced on GitHub soon).
+
+## License
+
+This repository is dual-licensed:
+
+* **Course Content:** All written materials, slides, and images are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CC-BY-SA.md).
+* **Source Code:** All code examples and scripts are licensed under the [MIT License](LICENSE-MIT.md).
 
 ## Author
 
