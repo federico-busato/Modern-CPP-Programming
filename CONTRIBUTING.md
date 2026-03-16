@@ -46,18 +46,18 @@ Install Typst by following the [official instructions](https://github.com/typst/
 - **CLI**: `cargo install typst-cli` (requires Rust), or download a prebuilt binary from [releases](https://github.com/typst/typst/releases).
 - **Web app**: [typst.app](https://typst.app/) for quick editing (no local setup needed).
 
+### Typst Packages
+
+The project uses several Typst packages which are automatically resolved on compilation. The presentation framework used for draw the slides is [`touying`](https://typst.app/universe/package/touying).
+
 ### Required Fonts
 
-The following fonts must be installed on your system for local compilation:
+The following fonts should be installed on your system to get the best visual experience:
 
 - [Latin Modern Sans](https://www.fontsquirrel.com/fonts/Latin-Modern-Sans)
 - [Latin Modern Mono](https://www.fontsquirrel.com/fonts/Latin-Modern-Mono)
 - [Latin Modern Roman Caps](https://www.fontsquirrel.com/fonts/TeX-Gyre-Cursor) (part of the Latin Modern family)
 - [Font Awesome 7 Free](https://fontawesome.com/download) (`Free-Regular-400.otf`)
-
-### Typst Packages
-
-The project uses several Typst packages which are automatically resolved on compilation. The presentation framework used for draw the slides is [`touying`](https://typst.app/universe/package/touying).
 
 ### Editor Setup (VS Code / Cursor)
 

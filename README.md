@@ -377,7 +377,7 @@ Font for coding.
 
 ## Reporting Bugs 🐛 and Contributing
 
-If you find any typo, conceptual error, or section to improve, please report it using the `Issues` panel.
+Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
 
 ## Where the Course has been used
 
